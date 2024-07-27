@@ -1,7 +1,6 @@
 import argparse
 from random import randint
 
-import loralib as lora
 import torch
 from coati.dataset import HhRlhfDataset, RmStaticDataset
 from coati.models import LogExpLoss, LogSigLoss
@@ -127,7 +126,7 @@ def train(args):
 
     trainer.fit()
     # save model checkpoint after fitting on only rank0
-    trainer.save_model(path=args.save_path, only_rank0=True, tokenizer=tokenizer)
+    trainer.save_model(path=args.save_path, only_rank0=True)
     # save optimizer checkpoint on all ranks
     if args.need_optim_ckpt:
         strategy.save_optimizer(trainer.optimizer,

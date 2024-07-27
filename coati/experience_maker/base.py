@@ -31,6 +31,7 @@ class Experience:
     advantages: torch.Tensor
     attention_mask: Optional[torch.LongTensor]
     action_mask: Optional[torch.BoolTensor]
+    actions: torch.Tensor
 
     @torch.no_grad()
     def to_device(self, device: torch.device) -> None:
@@ -39,6 +40,7 @@ class Experience:
         self.values = self.values.to(device)
         self.reward = self.reward.to(device)
         self.advantages = self.advantages.to(device)
+        self.actions = self.actions.to(device)
         if self.attention_mask is not None:
             self.attention_mask = self.attention_mask.to(device)
         if self.action_mask is not None:
@@ -50,6 +52,7 @@ class Experience:
         self.values = self.values.pin_memory()
         self.reward = self.reward.pin_memory()
         self.advantages = self.advantages.pin_memory()
+        self.actions = self.actions.pin_memory()
         if self.attention_mask is not None:
             self.attention_mask = self.attention_mask.pin_memory()
         if self.action_mask is not None:

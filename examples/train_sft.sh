@@ -1,12 +1,12 @@
-torchrun --standalone --nproc_per_node=4 train_sft.py \
-    --pretrain "/path/to/LLaMa-7B/" \
-    --model 'llama' \
+torchrun --standalone --nproc_per_node=1 train_sft.py \
+    --pretrain "openai-community/gpt2-medium" \
+    --model 'gpt2' \
     --strategy colossalai_zero2 \
-    --log_interval 10 \
-    --save_path  /path/to/Coati-7B \
-    --dataset /path/to/data.json \
-    --batch_size 4 \
-    --accimulation_steps 8 \
+    --log_interval 1 \
+    --save_path  output \
+    --dataset InstructionWild/data/instinwild_en.json \
+    --batch_size 1 \
+    --accimulation_steps 2 \
     --lr 2e-5 \
     --max_datasets_size 512 \
     --max_epochs 1 \

@@ -1,3 +1,5 @@
+import torch
+
 from typing import Optional
 
 from transformers.models.gpt2.configuration_gpt2 import GPT2Config
@@ -33,3 +35,8 @@ class GPTLM(LM):
         if checkpoint:
             model.gradient_checkpointing_enable()
         super().__init__(model, lora_rank, lora_train_bias)
+        
+
+    def forward(self, sequences: torch.LongTensor, attention_mask: Optional[torch.Tensor] = None, labels: Optional[torch.LongTensor] = None):
+        output = self.model(sequences, attention_mask=attention_mask, labels=labels)
+        return output

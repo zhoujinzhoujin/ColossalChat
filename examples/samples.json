@@ -1,0 +1,4002 @@
+[
+    {
+        "instruction": "How can I improve my website’s UX design?",
+        "id": 0
+    },
+    {
+        "instruction": "Create a list of five unique travel destinations that are not popular tourist spots. Provide a brief description for each destination, highlighting what sets it apart from other popular travel locations.",
+        "id": 1
+    },
+    {
+        "instruction": "What are some ways to increase self-confidence and self-esteem?",
+        "id": 2
+    },
+    {
+        "instruction": "Research the potential of geoengineering to combat global warming",
+        "id": 3
+    },
+    {
+        "instruction": "Name five famous scientists who worked in the field of genetics",
+        "id": 4
+    },
+    {
+        "instruction": "Outline the workflow process for a large-scale software project",
+        "id": 5
+    },
+    {
+        "instruction": "Create a list of 10 creative ways to reuse old mason jars.",
+        "id": 6
+    },
+    {
+        "instruction": "Describe the factors affecting mental health in teenagers",
+        "id": 7
+    },
+    {
+        "instruction": "Name three properties of a circle",
+        "id": 8
+    },
+    {
+        "instruction": "Can you make a list of tips for first-time homebuyers?",
+        "id": 9
+    },
+    {
+        "instruction": "Create a feedback loop which tracks customer satisfaction ratings.",
+        "id": 10
+    },
+    {
+        "instruction": "Describe the stages of child development from birth to age 10.",
+        "id": 11
+    },
+    {
+        "instruction": "Create sandbox environments for testing Kubernetes clusters on specified cloud providers.",
+        "id": 12
+    },
+    {
+        "instruction": "What is your favorite recipe for homemade pizza crust?",
+        "id": 13
+    },
+    {
+        "instruction": "Write a report assessing the feasibility of using drones for agricultural purposes",
+        "id": 14
+    },
+    {
+        "instruction": "Draft a paper discussing how to gamify customer experience.",
+        "id": 15
+    },
+    {
+        "instruction": "List three famous inventors who you would like to meet and their contributions to science.",
+        "id": 16
+    },
+    {
+        "instruction": "Analyze the lyrics of a popular song and interpret their meaning.",
+        "id": 17
+    },
+    {
+        "instruction": "How to set achievable goals for yourself and stay motivated to achieve them?",
+        "id": 18
+    },
+    {
+        "instruction": "Rearrange the following sentence: \"The cat chased the mouse.\"",
+        "id": 19
+    },
+    {
+        "instruction": "Create a quiz with 20 questions on a topic of your choosing, including multiple choice, true and false, and fill-in-the-blank questions.",
+        "id": 20
+    },
+    {
+        "instruction": "Compare Docker and Kubernetes in terms of features and performance.",
+        "id": 21
+    },
+    {
+        "instruction": "Write a query in SQL to find customers with the highest spending in the last month",
+        "id": 22
+    },
+    {
+        "instruction": "Think of a fictional character who represents the best or worst part of human nature. Write a brief character sketch describing their personality and behavior.",
+        "id": 23
+    },
+    {
+        "instruction": "Create a timeline for President Obama's first year in office.",
+        "id": 24
+    },
+    {
+        "instruction": "Create a recipe for a vegan cauliflower steak dish with a unique sauce.",
+        "id": 25
+    },
+    {
+        "instruction": "Summarize the four main forces of the competitive environment.",
+        "id": 26
+    },
+    {
+        "instruction": "Identify potential security threats when using a service-oriented architecture",
+        "id": 27
+    },
+    {
+        "instruction": "What are some current trends in machine learning innovation?",
+        "id": 28
+    },
+    {
+        "instruction": "How many calories should a person eat a day?",
+        "id": 29
+    },
+    {
+        "instruction": "Create a poem about the strength of coding",
+        "id": 30
+    },
+    {
+        "instruction": "Create a list of 10 tips for self-care and stress management during finals week for college students.",
+        "id": 31
+    },
+    {
+        "instruction": "What steps should be taken to reduce energy consumption in a company?",
+        "id": 32
+    },
+    {
+        "instruction": "Develop a budget for opening a small cafe",
+        "id": 33
+    },
+    {
+        "instruction": "Summarize the top five trends in the cryptocurrency market.",
+        "id": 34
+    },
+    {
+        "instruction": "Discuss the impact of technology on modern day communication.",
+        "id": 35
+    },
+    {
+        "instruction": "Compare using a customer loyalty program to traditional advertising",
+        "id": 36
+    },
+    {
+        "instruction": "Make a list of ten achievable things you would like to do in the next year.",
+        "id": 37
+    },
+    {
+        "instruction": "Describe how population growth can affect environmental stability",
+        "id": 38
+    },
+    {
+        "instruction": "Outline the main points of a workshop on employee stress management",
+        "id": 39
+    },
+    {
+        "instruction": "Create an artificial intelligence system to automate a process",
+        "id": 40
+    },
+    {
+        "instruction": "Write a blog post on the importance of data-driven decision-making.",
+        "id": 41
+    },
+    {
+        "instruction": "Write a dialogue between two characters discussing the pros and cons of traveling alone. Please include at least five lines of dialogue each.",
+        "id": 42
+    },
+    {
+        "instruction": "What are some effective time management strategies for students who are struggling to balance schoolwork with extracurricular activities and personal hobbies?",
+        "id": 43
+    },
+    {
+        "instruction": "List five steps to achieving financial freedom.",
+        "id": 44
+    },
+    {
+        "instruction": "How can machine learning be used to optimize decision-making processes?",
+        "id": 45
+    },
+    {
+        "instruction": "Write a list of ten things you wish people knew about your job.",
+        "id": 46
+    },
+    {
+        "instruction": "Please recite a poem that you have memorized, but change every fifth word to a synonym.",
+        "id": 47
+    },
+    {
+        "instruction": "Outline the differences between a low-fidelity prototype and a high-fidelity prototype.",
+        "id": 48
+    },
+    {
+        "instruction": "Can you explain the workings and applications of machine learning and artificial intelligence?",
+        "id": 49
+    },
+    {
+        "instruction": "Give me Prime Minister Justin Trudeau's current environmental priorities.",
+        "id": 50
+    },
+    {
+        "instruction": "What are the risks of cryptocurrency investing?",
+        "id": 51
+    },
+    {
+        "instruction": "Describe ways to prevent a denial of service attack",
+        "id": 52
+    },
+    {
+        "instruction": "Compare the benefits and drawbacks of investing in deep-learning technology.",
+        "id": 53
+    },
+    {
+        "instruction": "Can you suggest a list of movies for a family movie night?",
+        "id": 54
+    },
+    {
+        "instruction": "What are the potential ways to make a project more sustainable?",
+        "id": 55
+    },
+    {
+        "instruction": "Describe the neuroscience behind addiction",
+        "id": 56
+    },
+    {
+        "instruction": "What is the best way to secure a home Wi-Fi network?",
+        "id": 57
+    },
+    {
+        "instruction": "Given a dataset of online sales transactions, use clustering algorithms to identify patterns and trends in customer behavior.",
+        "id": 58
+    },
+    {
+        "instruction": "Explain the benefits of using a CI/CD pipeline",
+        "id": 59
+    },
+    {
+        "instruction": "Create a top 10 list of must-see travel destinations for adventure enthusiasts.",
+        "id": 60
+    },
+    {
+        "instruction": "Identify techniques to increase the accuracy of machine translation",
+        "id": 61
+    },
+    {
+        "instruction": "How might I make an origami swan?",
+        "id": 62
+    },
+    {
+        "instruction": "Describe the processes of photosynthesis",
+        "id": 63
+    },
+    {
+        "instruction": "List the main methods of malicious software protection",
+        "id": 64
+    },
+    {
+        "instruction": "Describe the role of environmental education in reducing resource depletion",
+        "id": 65
+    },
+    {
+        "instruction": "Provide an overview of the benefits and challenges associated with online learning",
+        "id": 66
+    },
+    {
+        "instruction": "Given a set of 20 photos, sort them into categories based on their commonalities. Please provide clear explanations for your categorization process.",
+        "id": 67
+    },
+    {
+        "instruction": "What are six customer pain points that customer relationship management can address?",
+        "id": 68
+    },
+    {
+        "instruction": "Can you recommend three healthy and affordable meal options for college students on a tight budget?",
+        "id": 69
+    },
+    {
+        "instruction": "Create a marketing campaign for a new line of plant-based meat alternatives.",
+        "id": 70
+    },
+    {
+        "instruction": "Write a persuasive essay about the value of artificial intelligence in our lives",
+        "id": 71
+    },
+    {
+        "instruction": "Can you suggest a 30-day challenge for someone looking to improve their physical fitness, incorporating cardio, strength training, and flexibility exercises?",
+        "id": 72
+    },
+    {
+        "instruction": "List five steps to successfully launch a new product.",
+        "id": 73
+    },
+    {
+        "instruction": "Write a Twitter bot to automatically retweet relevant tweets",
+        "id": 74
+    },
+    {
+        "instruction": "What are some practical tips for reducing food waste at home?",
+        "id": 75
+    },
+    {
+        "instruction": "Generate a list of 10 creative ways to reduce your household waste, including recycling, upcycling, and composting.",
+        "id": 76
+    },
+    {
+        "instruction": "Can you summarize the main points of this article: https://www.hbr.org/2019/11/how-to-become-more-empathetic",
+        "id": 77
+    },
+    {
+        "instruction": "Analyze the tone of the following piece of writing: \"This is a great opportunity to save the world\"",
+        "id": 78
+    },
+    {
+        "instruction": "Create a 12-week exercise program for an athlete.",
+        "id": 79
+    },
+    {
+        "instruction": "How to reconcile with a former friend?",
+        "id": 80
+    },
+    {
+        "instruction": "List the pros and cons of buying shares in a company",
+        "id": 81
+    },
+    {
+        "instruction": "Create an algorithm to personalize the user experience with a chatbot.",
+        "id": 82
+    },
+    {
+        "instruction": "Create a set of instructions for how to knit a scarf.",
+        "id": 83
+    },
+    {
+        "instruction": "What are the main steps to deploy a web application?",
+        "id": 84
+    },
+    {
+        "instruction": "Explain the political significance of the second world war.",
+        "id": 85
+    },
+    {
+        "instruction": "Develop a budget for someone planning a wedding, including expenses for venue, catering, and decorations.",
+        "id": 86
+    },
+    {
+        "instruction": "Create an AI system to detect patterns of fraud in insurance claims.",
+        "id": 87
+    },
+    {
+        "instruction": "summarize the five most common database technologies",
+        "id": 88
+    },
+    {
+        "instruction": "Write an algorithm to understand and extract the intent of a sentence.",
+        "id": 89
+    },
+    {
+        "instruction": "Describe the differences between substantive due process and procedural due process",
+        "id": 90
+    },
+    {
+        "instruction": "Suggest a theme for a 30th anniversary party.",
+        "id": 91
+    },
+    {
+        "instruction": "What are the most common voting systems used in modern democracies, and what are their advantages and disadvantages?",
+        "id": 92
+    },
+    {
+        "instruction": "Come up with a plan to increase the use of renewable energy sources.",
+        "id": 93
+    },
+    {
+        "instruction": "Create a program that creates a personalized nutrition plan for a user",
+        "id": 94
+    },
+    {
+        "instruction": "Create an infographic about how to achieve work-life balance.",
+        "id": 95
+    },
+    {
+        "instruction": "Develop an AI system to detect fraudulent transactions.",
+        "id": 96
+    },
+    {
+        "instruction": "Tell me a fun fact about the history of painting",
+        "id": 97
+    },
+    {
+        "instruction": "Research the latest trends in cloud computing",
+        "id": 98
+    },
+    {
+        "instruction": "Can you design a t-shirt that promotes sustainability and highlights the dangers of single-use plastics?",
+        "id": 99
+    },
+    {
+        "instruction": "Compose a blog post about the attributes of effective leaders",
+        "id": 100
+    },
+    {
+        "instruction": "Research the history and impact of The Great Firewall of China.",
+        "id": 101
+    },
+    {
+        "instruction": "Compare the health benefits of vegetarian and vegan diets.",
+        "id": 102
+    },
+    {
+        "instruction": "What impact can open source technologies have on businesses in my industry?",
+        "id": 103
+    },
+    {
+        "instruction": "Devise a strategy to increase the number of people engaged in physical activity",
+        "id": 104
+    },
+    {
+        "instruction": "How can we use data science to solve the problems of food insecurity in developing countries?",
+        "id": 105
+    },
+    {
+        "instruction": "Create a list of 10 questions to ask during a job interview to assess a candidate's cultural fit within a company.",
+        "id": 106
+    },
+    {
+        "instruction": "Propose a new algorithm to solve the taxi driver problem",
+        "id": 107
+    },
+    {
+        "instruction": "Calculate the CO2 emissions of a car over a given mile distance.",
+        "id": 108
+    },
+    {
+        "instruction": "Write a program to recognize speech input and convert it to text.",
+        "id": 109
+    },
+    {
+        "instruction": "What are the three main techniques for data visualization?",
+        "id": 110
+    },
+    {
+        "instruction": "Can you think of a business idea that involves upcycling?",
+        "id": 111
+    },
+    {
+        "instruction": "What steps should we take to promote environmental sustainability and conservation efforts?",
+        "id": 112
+    },
+    {
+        "instruction": "List five famous artists and their contributions to the art world.",
+        "id": 113
+    },
+    {
+        "instruction": "Design an online safety campaign for children",
+        "id": 114
+    },
+    {
+        "instruction": "Research and suggest potential channels to reach new customers.",
+        "id": 115
+    },
+    {
+        "instruction": "Tell us the best practices for social media management",
+        "id": 116
+    },
+    {
+        "instruction": "What are some potential negative effects of globalization on different cultures around the world?",
+        "id": 117
+    },
+    {
+        "instruction": "Discuss the impact of automation and technology on the workforce, including job displacement and new job opportunities.",
+        "id": 118
+    },
+    {
+        "instruction": "What are the most common vulnerabilities of electronic voting systems?",
+        "id": 119
+    },
+    {
+        "instruction": "Describe a creative way of reducing gender inequality",
+        "id": 120
+    },
+    {
+        "instruction": "Assess the potential applications of blockchain for protecting data",
+        "id": 121
+    },
+    {
+        "instruction": "Write a memoir about a transformative experience in your life, exploring the ways in which it changed your perspective and trajectory",
+        "id": 122
+    },
+    {
+        "instruction": "Is it true that cats outnumber dogs as pets in the United States?",
+        "id": 123
+    },
+    {
+        "instruction": "What is the process of creating a quantum computer?",
+        "id": 124
+    },
+    {
+        "instruction": "How does machine learning affect digital marketing?",
+        "id": 125
+    },
+    {
+        "instruction": "Which are the most common coding languages?",
+        "id": 126
+    },
+    {
+        "instruction": "Develop a virtual 3D tour of a property",
+        "id": 127
+    },
+    {
+        "instruction": "Create a list of the best documentaries that everyone should watch.",
+        "id": 128
+    },
+    {
+        "instruction": "Identify the most successful strategies for raising capital.",
+        "id": 129
+    },
+    {
+        "instruction": "Write a story set during World War II from the perspective of a soldier on the front lines",
+        "id": 130
+    },
+    {
+        "instruction": "Analyze survey data for trends in customer satisfaction.",
+        "id": 131
+    },
+    {
+        "instruction": "How would you develop a predictive AI for customer churn?",
+        "id": 132
+    },
+    {
+        "instruction": "Explain how data mining could be used to discover new medical treatments",
+        "id": 133
+    },
+    {
+        "instruction": "Explain the process for developing an effective dashboard",
+        "id": 134
+    },
+    {
+        "instruction": "Design an incentive program to motivate employees.",
+        "id": 135
+    },
+    {
+        "instruction": "Summarize a current article about the state of climate change",
+        "id": 136
+    },
+    {
+        "instruction": "Create a tool to monitor stock market trends",
+        "id": 137
+    },
+    {
+        "instruction": "Explain the use of AI in education",
+        "id": 138
+    },
+    {
+        "instruction": "Develop a strategy for political lobbying",
+        "id": 139
+    },
+    {
+        "instruction": "Determine the prime factors of 20",
+        "id": 140
+    },
+    {
+        "instruction": "Create an algorithm to calculate the average of 5 variables",
+        "id": 141
+    },
+    {
+        "instruction": "Provide tips for individuals on how to overcome imposter syndrome and build self-confidence in their abilities.",
+        "id": 142
+    },
+    {
+        "instruction": "Suggest three different workout routines for people with different fitness levels.",
+        "id": 143
+    },
+    {
+        "instruction": "Explain the root causes of burnout and how to overcome it",
+        "id": 144
+    },
+    {
+        "instruction": "How could Natural Language Processing help a customer service agent?\n69. What is the best way to ensure secure data storage in the cloud?",
+        "id": 145
+    },
+    {
+        "instruction": "Please explain Newton's first law of motion.",
+        "id": 146
+    },
+    {
+        "instruction": "Describe how to make a film using animation",
+        "id": 147
+    },
+    {
+        "instruction": "Rewrite this sentence to make it more informal- \"I gotta run some errands later.\"",
+        "id": 148
+    },
+    {
+        "instruction": "Tell me a story that starts with \"Once upon a time, there was a magical unicorn who lived in a forest...\"",
+        "id": 149
+    },
+    {
+        "instruction": "What changes can be made to reduce the gender pay gap in the United States?",
+        "id": 150
+    },
+    {
+        "instruction": "Investigate the advantages of using virtual machines over physical machines",
+        "id": 151
+    },
+    {
+        "instruction": "Can you list some of the most common phobias and explain why people develop them?",
+        "id": 152
+    },
+    {
+        "instruction": "Explore why the hymen is a symbol of virginity and the implications that come with it",
+        "id": 153
+    },
+    {
+        "instruction": "Assess the potential of machine learning algorithms for financial forecasting",
+        "id": 154
+    },
+    {
+        "instruction": "Design an interactive website to teach the concept of division",
+        "id": 155
+    },
+    {
+        "instruction": "Explain the principles behind nuclear fission and fusion",
+        "id": 156
+    },
+    {
+        "instruction": "Generate a list of potential names for a new coffee shop that will be opening in a trendy neighborhood.",
+        "id": 157
+    },
+    {
+        "instruction": "Develop a strategy for a company to achieve carbon neutrality.",
+        "id": 158
+    },
+    {
+        "instruction": "Research the economic benefits of establishing a renewable energy farm",
+        "id": 159
+    },
+    {
+        "instruction": "Construct a chess strategy to attack a knight in the center of an open board",
+        "id": 160
+    },
+    {
+        "instruction": "Evaluate the impact of globalization on small cultures",
+        "id": 161
+    },
+    {
+        "instruction": "Summarize current methods of renewable energy production",
+        "id": 162
+    },
+    {
+        "instruction": "Write a program that can match individuals with an appropriate job based on their skills and qualifications.",
+        "id": 163
+    },
+    {
+        "instruction": "Recommend a design pattern for an augmented-reality interface",
+        "id": 164
+    },
+    {
+        "instruction": "Write a short story about a person who wakes up with amnesia and tries to piece together their past.",
+        "id": 165
+    },
+    {
+        "instruction": "Assess how autonomous drones can be used to improve transportation",
+        "id": 166
+    },
+    {
+        "instruction": "What is a primary benefit of using big data analytics?",
+        "id": 167
+    },
+    {
+        "instruction": "Create a list of 10 easy home organization tips for busy families.",
+        "id": 168
+    },
+    {
+        "instruction": "Develop a program for drawing basic shapes",
+        "id": 169
+    },
+    {
+        "instruction": "Design a system for customer engagement that utilizes AI.",
+        "id": 170
+    },
+    {
+        "instruction": "Explain the role of digital marketing in business",
+        "id": 171
+    },
+    {
+        "instruction": "explain the five steps for developing a successful SEO strategy",
+        "id": 172
+    },
+    {
+        "instruction": "Create a system for controlling robotic movements with a neural network.",
+        "id": 173
+    },
+    {
+        "instruction": "Assess the effects of deforestation on ecosystems",
+        "id": 174
+    },
+    {
+        "instruction": "Explain the principles of semantic web",
+        "id": 175
+    },
+    {
+        "instruction": "Write a short story in which a character's childhood hero turns out to be a fraud. How does the character navigate the disappointment of realizing their hero is not who they thought they were?",
+        "id": 176
+    },
+    {
+        "instruction": "What does the future of augmented reality look like?",
+        "id": 177
+    },
+    {
+        "instruction": "Summarize the key concepts of the bystander effect.",
+        "id": 178
+    },
+    {
+        "instruction": "Edit a recipe for a vegan chocolate cake, focusing on improving the language and explaining the steps in greater detail.",
+        "id": 179
+    },
+    {
+        "instruction": "Prepare a list of steps for international travel.",
+        "id": 180
+    },
+    {
+        "instruction": "Tell me about the history and significance of the Taj Mahal in India.",
+        "id": 181
+    },
+    {
+        "instruction": "Teach me what a cooperative game is",
+        "id": 182
+    },
+    {
+        "instruction": "Analyze the role that media plays on society.",
+        "id": 183
+    },
+    {
+        "instruction": "Outline the principles of responsible AI",
+        "id": 184
+    },
+    {
+        "instruction": "List three techniques for better memory recall.",
+        "id": 185
+    },
+    {
+        "instruction": "Explain the differences between Product Management and Project Management",
+        "id": 186
+    },
+    {
+        "instruction": "Develop a plan for improving affordable housing in urban areas.",
+        "id": 187
+    },
+    {
+        "instruction": "How can we reduce instances of police violence?",
+        "id": 188
+    },
+    {
+        "instruction": "Research and write a summary of current trends in the fashion industry for the upcoming season.",
+        "id": 189
+    },
+    {
+        "instruction": "Construct creative writing prompts",
+        "id": 190
+    },
+    {
+        "instruction": "List and explain the advantages and disadvantages of using a cryptocurrency",
+        "id": 191
+    },
+    {
+        "instruction": "Suggest a system for automatic generation of personalised product recommendations",
+        "id": 192
+    },
+    {
+        "instruction": "Create a report explaining the importance of financial literacy",
+        "id": 193
+    },
+    {
+        "instruction": "Investigate the impact of the recent economic recession on young people and provide solutions.",
+        "id": 194
+    },
+    {
+        "instruction": "Using only five words, describe the feeling of falling in love.",
+        "id": 195
+    },
+    {
+        "instruction": "Generate a list of 4 possible use cases for an AI assistant in a hospital setting",
+        "id": 196
+    },
+    {
+        "instruction": "Design an algorithm to improve the accuracy of financial predictions",
+        "id": 197
+    },
+    {
+        "instruction": "Write a personal essay about your experience with mental illness, including coping strategies and advocacy efforts.",
+        "id": 198
+    },
+    {
+        "instruction": "Describe the need for cloud-based AI solutions",
+        "id": 199
+    },
+    {
+        "instruction": "What’s the best way to keep up with technology trends?",
+        "id": 200
+    },
+    {
+        "instruction": "Explain the benefits of reusing and recycling",
+        "id": 201
+    },
+    {
+        "instruction": "Write a short story about a person who discovers a secret underground society",
+        "id": 202
+    },
+    {
+        "instruction": "Describe the impact of human activity on animal life",
+        "id": 203
+    },
+    {
+        "instruction": "List and explain techniques to analyze market trends.",
+        "id": 204
+    },
+    {
+        "instruction": "Research the impact of renewable energies on climate change",
+        "id": 205
+    },
+    {
+        "instruction": "Can you suggest ten potential debate topics for a high school debate team?",
+        "id": 206
+    },
+    {
+        "instruction": "Compare and contrast the flora and fauna of a tropical rainforest with a desert ecosystem.",
+        "id": 207
+    },
+    {
+        "instruction": "What is the most important component of a successful project?",
+        "id": 208
+    },
+    {
+        "instruction": "Examine the impact of cloud computing on global business operations.",
+        "id": 209
+    },
+    {
+        "instruction": "How is artificial intelligence being used to create new jobs?",
+        "id": 210
+    },
+    {
+        "instruction": "Edit this paragraph to remove redundancy and improve its clarity. \"I went to the store yesterday to buy some new shoes. I looked at several different pairs before finally finding one that I liked. I tried them on and walked around a bit to make sure they fit well. I decided to buy them and paid for them at the register with my credit card.\"",
+        "id": 211
+    },
+    {
+        "instruction": "Design a promotional campaign for a new smartphone",
+        "id": 212
+    },
+    {
+        "instruction": "Describe the main features of a distributed ledger technology-based system.",
+        "id": 213
+    },
+    {
+        "instruction": "Analyze a news article and identify any biases or misleading information presented in the piece.",
+        "id": 214
+    },
+    {
+        "instruction": "Explain the concept of fair use in copyright law, and its importance for creative industries.",
+        "id": 215
+    },
+    {
+        "instruction": "Explain the concept of artificial intelligence and illustrate its potential applications and implications.",
+        "id": 216
+    },
+    {
+        "instruction": "Design an analytics dashboard for visualizing website performance",
+        "id": 217
+    },
+    {
+        "instruction": "Explain the history and significance of a major political movement.",
+        "id": 218
+    },
+    {
+        "instruction": "Design an online curriculum to teach students disruptive technologies",
+        "id": 219
+    },
+    {
+        "instruction": "How has the emergence of AI changed the way organizations do business?",
+        "id": 220
+    },
+    {
+        "instruction": "Please generate an example of an active sentence that uses the vocative case.",
+        "id": 221
+    },
+    {
+        "instruction": "Design an eco-friendly home or building, including all necessary architectural and engineering considerations.",
+        "id": 222
+    },
+    {
+        "instruction": "Can you recommend three different podcasts for learning about current events?",
+        "id": 223
+    },
+    {
+        "instruction": "Compare and contrast the educational systems of the UK and the USA.",
+        "id": 224
+    },
+    {
+        "instruction": "Design a program that can detect malicious code",
+        "id": 225
+    },
+    {
+        "instruction": "Rank AI’s biggest challenges",
+        "id": 226
+    },
+    {
+        "instruction": "Categorize 5 different types of dogs by breed.",
+        "id": 227
+    },
+    {
+        "instruction": "Sarah is considering marriage to her neighbor, but Sarah's elder brother refuses to allow it. Explain three other potential consequences of Sarah's brother's decision.",
+        "id": 228
+    },
+    {
+        "instruction": "Explain how facial recognition technology is used to authenticate a user",
+        "id": 229
+    },
+    {
+        "instruction": "Describe the features of a general purpose expert system.",
+        "id": 230
+    },
+    {
+        "instruction": "Formulate a detailed plan to reduce the cost of running a call center",
+        "id": 231
+    },
+    {
+        "instruction": "Recommend three movies that you believe made you think about life and death.",
+        "id": 232
+    },
+    {
+        "instruction": "Find the best methods for facial recognition",
+        "id": 233
+    },
+    {
+        "instruction": "Write an article about the health benefits of dark chocolate",
+        "id": 234
+    },
+    {
+        "instruction": "Explain the customer journey from the point of initial contact to purchase.",
+        "id": 235
+    },
+    {
+        "instruction": "Analyze the implications of nanotechnology in biological systems",
+        "id": 236
+    },
+    {
+        "instruction": "Edit this paragraph to make it more engaging and interesting to read: \"The sky was blue and the sun was shining. It was a beautiful day and everything looked perfect. I felt happy and content.\"",
+        "id": 237
+    },
+    {
+        "instruction": "Analyze the likely effects of the proposed US Tax Cuts & Jobs Act",
+        "id": 238
+    },
+    {
+        "instruction": "Explain how an artificial neural network functions",
+        "id": 239
+    },
+    {
+        "instruction": "Implement a method of machine learning to predict the weather",
+        "id": 240
+    },
+    {
+        "instruction": "Translate the poem \"The Raven\" by Edgar Allan Poe into Japanese",
+        "id": 241
+    },
+    {
+        "instruction": "Produce a report about the potential for solar energy in the US",
+        "id": 242
+    },
+    {
+        "instruction": "Propose a system to automatically generate customer reviews.",
+        "id": 243
+    },
+    {
+        "instruction": "Analyze and assess the security challenges faced by the European Union as a consequence of Brexit.",
+        "id": 244
+    },
+    {
+        "instruction": "Design a new marketing campaign to sell a virtual reality game",
+        "id": 245
+    },
+    {
+        "instruction": "Can you suggest 10 science experiments that kids can do at home with everyday household items?",
+        "id": 246
+    },
+    {
+        "instruction": "Create a job description for a customer service representative",
+        "id": 247
+    },
+    {
+        "instruction": "Generate a list of ten quotes from books that have inspired you.",
+        "id": 248
+    },
+    {
+        "instruction": "Can you recommend a good workout routine for someone looking to build muscle?",
+        "id": 249
+    },
+    {
+        "instruction": "Use natural language processing to create a program to automatically generate text responses.",
+        "id": 250
+    },
+    {
+        "instruction": "Edit this cover letter to improve its persuasiveness and professionalism.",
+        "id": 251
+    },
+    {
+        "instruction": "Recommend technologies and tools for creating a real-time chatbot.",
+        "id": 252
+    },
+    {
+        "instruction": "Create a schedule for the launch of a new website.",
+        "id": 253
+    },
+    {
+        "instruction": "Recommend three resources for individuals seeking to learn new skills, such as coding or graphic design.",
+        "id": 254
+    },
+    {
+        "instruction": "Summarize the history of the Cold War in 500 words or less.",
+        "id": 255
+    },
+    {
+        "instruction": "Create a lesson plan for a high school class that focuses on teaching students about financial literacy.",
+        "id": 256
+    },
+    {
+        "instruction": "List three potential career paths for someone who enjoys working with computers and technology.",
+        "id": 257
+    },
+    {
+        "instruction": "Create a list of 10 unusual facts about animals that most people don't know.",
+        "id": 258
+    },
+    {
+        "instruction": "Develop a strategy for improving literacy among children.",
+        "id": 259
+    },
+    {
+        "instruction": "Describe the differences between Postmodernism and New Wave Cinema.",
+        "id": 260
+    },
+    {
+        "instruction": "Classify the following words as nouns or verbs: jump, computer, run, table, sing, book, fly, eat.",
+        "id": 261
+    },
+    {
+        "instruction": "Describe and compare the different types of yoga practices and their benefits.",
+        "id": 262
+    },
+    {
+        "instruction": "Develop a weekly meal plan for someone with food allergies to dairy and gluten, including breakfast, lunch, and dinner options.",
+        "id": 263
+    },
+    {
+        "instruction": "Analyze the following quote: \"Education is the most powerful weapon which you can use to change the world\" - Nelson Mandela",
+        "id": 264
+    },
+    {
+        "instruction": "Design a system for natural language processing",
+        "id": 265
+    },
+    {
+        "instruction": "What features make a great hiking trail, and list 5 great trails in North America you would recommend.",
+        "id": 266
+    },
+    {
+        "instruction": "Outline the fundraising process for a startup.",
+        "id": 267
+    },
+    {
+        "instruction": "Construct an algorithm that can translate speech into text in various languages.",
+        "id": 268
+    },
+    {
+        "instruction": "Develop a mobile app that helps users plan and save for retirement.",
+        "id": 269
+    },
+    {
+        "instruction": "Produce a pipeline to analyze connectomics data",
+        "id": 270
+    },
+    {
+        "instruction": "Create an algorithm to find patterns in stock market behavior",
+        "id": 271
+    },
+    {
+        "instruction": "Classify a list of animals as mammals, birds, fish, reptiles, or amphibians.",
+        "id": 272
+    },
+    {
+        "instruction": "Create an AI application that can diagnose medical conditions",
+        "id": 273
+    },
+    {
+        "instruction": "Write a brief summary of Charles Dickens' \"A Tale of Two Cities\" in under 50 words.",
+        "id": 274
+    },
+    {
+        "instruction": "How can a business ensure the quality of its services on an international level?",
+        "id": 275
+    },
+    {
+        "instruction": "Collaborate with me to write a skit about a lawn mower salesperson",
+        "id": 276
+    },
+    {
+        "instruction": "Create a formula in Excel to calculate the interest rate of a loan",
+        "id": 277
+    },
+    {
+        "instruction": "Construct a system for predictive analytics",
+        "id": 278
+    },
+    {
+        "instruction": "Evaluate the effectiveness of a given advertisement",
+        "id": 279
+    },
+    {
+        "instruction": "Develop a plan for creating a global presence for a local business.",
+        "id": 280
+    },
+    {
+        "instruction": "Name two physical adaptations that snakes use for survival",
+        "id": 281
+    },
+    {
+        "instruction": "Construct an algorithm to identify fraudulent activities on an online marketplace.",
+        "id": 282
+    },
+    {
+        "instruction": "Create a vision board of your personal and professional goals for the next 6 months.",
+        "id": 283
+    },
+    {
+        "instruction": "Write a list of 10 ways to improve your memory and concentration.",
+        "id": 284
+    },
+    {
+        "instruction": "Write a short story that contains the following elements: a black cat, a haunted house, and a missing key.",
+        "id": 285
+    },
+    {
+        "instruction": "Evaluate and compile information needed to build a website UX/UI",
+        "id": 286
+    },
+    {
+        "instruction": "Describe the process for deploying a predictive analytics model",
+        "id": 287
+    },
+    {
+        "instruction": "Name and discuss the five types of competitive strategies",
+        "id": 288
+    },
+    {
+        "instruction": "Find the best practices for building interactive voice systems.",
+        "id": 289
+    },
+    {
+        "instruction": "Outline the stages of consumer decision making",
+        "id": 290
+    },
+    {
+        "instruction": "Summarize the benefits of using virtual reality for user experience",
+        "id": 291
+    },
+    {
+        "instruction": "Design an interactive visualisation of economic trends",
+        "id": 292
+    },
+    {
+        "instruction": "Analyze the setting in your favorite book and explain how it contributes to the story.",
+        "id": 293
+    },
+    {
+        "instruction": "Develop an algorithm that can accurately detect changes in facial expressions.",
+        "id": 294
+    },
+    {
+        "instruction": "Design a smartphone game focused on environmental awareness",
+        "id": 295
+    },
+    {
+        "instruction": "Develop an algorithm that can detect anomalies in large datasets.",
+        "id": 296
+    },
+    {
+        "instruction": "Write a short story about a character who can hear the thoughts of others.",
+        "id": 297
+    },
+    {
+        "instruction": "Discuss the role of artificial intelligence in healthcare, including potential benefits and drawbacks.",
+        "id": 298
+    },
+    {
+        "instruction": "Estimate the cost of establishing a blockchain-based identity verification system",
+        "id": 299
+    },
+    {
+        "instruction": "Describe the various programs available in the Artificial Intelligence domain",
+        "id": 300
+    },
+    {
+        "instruction": "Create an application for categorizing documents using natural language processing.",
+        "id": 301
+    },
+    {
+        "instruction": "What are the best ways to motivate yourself when feeling demotivated?",
+        "id": 302
+    },
+    {
+        "instruction": "Design an AI-assisted automation system to help software developers",
+        "id": 303
+    },
+    {
+        "instruction": "Create a list of 10 small acts of kindness that one can do every day to make someone's day.",
+        "id": 304
+    },
+    {
+        "instruction": "Edit this news article on a recent political scandal and check for accuracy, clarity, and objectivity.",
+        "id": 305
+    },
+    {
+        "instruction": "List five tips for increasing customer interaction with a company website.",
+        "id": 306
+    },
+    {
+        "instruction": "Develop a safety plan for an educational field trip to a museum.",
+        "id": 307
+    },
+    {
+        "instruction": "Rewrite the following sentence using present continuous tense: I am going to the store later.",
+        "id": 308
+    },
+    {
+        "instruction": "Develop a system to automate customer service inquiries on social media.",
+        "id": 309
+    },
+    {
+        "instruction": "Invent a new language and provide some basic vocabulary and grammar rules.",
+        "id": 310
+    },
+    {
+        "instruction": "How can software development processes be streamlined to reduce errors?",
+        "id": 311
+    },
+    {
+        "instruction": "Explain the steps to set up two-factor authentication",
+        "id": 312
+    },
+    {
+        "instruction": "Create a logo design for a fashion brand",
+        "id": 313
+    },
+    {
+        "instruction": "Plan a one-day itinerary for a trip to New York City, including recommendations for attractions and restaurants.",
+        "id": 314
+    },
+    {
+        "instruction": "How could artificial intelligence be used to address the challenge of climate change?",
+        "id": 315
+    },
+    {
+        "instruction": "Design a system to automate customer support processes",
+        "id": 316
+    },
+    {
+        "instruction": "Create a simple design for a logo for a new company.",
+        "id": 317
+    },
+    {
+        "instruction": "Write an article about the history and evolution of coffee",
+        "id": 318
+    },
+    {
+        "instruction": "How do social media algorithms decide which posts to show first?",
+        "id": 319
+    },
+    {
+        "instruction": "List different software solutions for improving customer service and explain their benefits for modern businesses.",
+        "id": 320
+    },
+    {
+        "instruction": "Craft a tweet advocating for renewable energy policies.",
+        "id": 321
+    },
+    {
+        "instruction": "Write a story about a character who loses their ability to speak but gains telepathic abilities instead.",
+        "id": 322
+    },
+    {
+        "instruction": "Construct a database schema to store information about customers and their orders.",
+        "id": 323
+    },
+    {
+        "instruction": "If a recipe calls for 1 teaspoon of vanilla extract and you don't have it, can you substitute it with something else?",
+        "id": 324
+    },
+    {
+        "instruction": "Create a list of positive affirmations to start the day.",
+        "id": 325
+    },
+    {
+        "instruction": "Constructing a machine learning system to predict air quality",
+        "id": 326
+    },
+    {
+        "instruction": "How does cryptocurrency solve the double spending problem?",
+        "id": 327
+    },
+    {
+        "instruction": "How can a predictive model be used to forecast sales?",
+        "id": 328
+    },
+    {
+        "instruction": "Create a set of instructions for a unique and sustainable DIY home decor project.",
+        "id": 329
+    },
+    {
+        "instruction": "Transform an old website design into a more modern look.",
+        "id": 330
+    },
+    {
+        "instruction": "Analyze the poem \"Do Not Go Gentle into That Good Night\" by Dylan Thomas and come up with a thesis statement about its meaning.",
+        "id": 331
+    },
+    {
+        "instruction": "How can I motivate myself to stick to a healthy diet and exercise regimen?",
+        "id": 332
+    },
+    {
+        "instruction": "Identify the security methods used in cloud computing",
+        "id": 333
+    },
+    {
+        "instruction": "Can you explain the concept of artificial intelligence and its applications in various industries, including healthcare and finance?",
+        "id": 334
+    },
+    {
+        "instruction": "How will autonomous vehicles affect public transportation in the long term?",
+        "id": 335
+    },
+    {
+        "instruction": "Analyze the cultural significance of the movie Jurassic Park.",
+        "id": 336
+    },
+    {
+        "instruction": "Describe five principles for designing secure cloud applications.",
+        "id": 337
+    },
+    {
+        "instruction": "Research a list of healthy food options",
+        "id": 338
+    },
+    {
+        "instruction": "Create a detailed report of digital marketing trends",
+        "id": 339
+    },
+    {
+        "instruction": "Is censorship an effective measure to protect people’s privacy?",
+        "id": 340
+    },
+    {
+        "instruction": "Please produce a report on the stability of global currencies",
+        "id": 341
+    },
+    {
+        "instruction": "Create a loyalty rewards program for customers",
+        "id": 342
+    },
+    {
+        "instruction": "Develop a mobile application for food delivery that uses location-based technologies.",
+        "id": 343
+    },
+    {
+        "instruction": "Use customer Journey Mapping to tailor experiences",
+        "id": 344
+    },
+    {
+        "instruction": "What are the key considerations for using artificial intelligence for customer service?",
+        "id": 345
+    },
+    {
+        "instruction": "Categorize the various types of cyber-attacks and assess current methods of prevention.",
+        "id": 346
+    },
+    {
+        "instruction": "List five techniques to make reading text easier",
+        "id": 347
+    },
+    {
+        "instruction": "Propose effective solutions to eliminate virus threats in a company's network",
+        "id": 348
+    },
+    {
+        "instruction": "Please edit this paragraph for clarity and conciseness: \"In order to be successful in life, one must work hard, set goals, and be persistent in the face of obstacles.\"",
+        "id": 349
+    },
+    {
+        "instruction": "What are some ways to encourage more renewable energy usage?",
+        "id": 350
+    },
+    {
+        "instruction": "Draft a blog post about the challenges of parenting in the digital age",
+        "id": 351
+    },
+    {
+        "instruction": "Develop a meal plan for a person on a tight budget.",
+        "id": 352
+    },
+    {
+        "instruction": "Create a digital art piece that represents the concept of love.",
+        "id": 353
+    },
+    {
+        "instruction": "Analyze the stock prices of a company over the past two years",
+        "id": 354
+    },
+    {
+        "instruction": "Describe the characteristics of a particular kind of robot, such as a humanoid robot.",
+        "id": 355
+    },
+    {
+        "instruction": "Explain the principles of problem solving",
+        "id": 356
+    },
+    {
+        "instruction": "Compose a list of tips for effective time management and prioritization, whether for academic or personal tasks.",
+        "id": 357
+    },
+    {
+        "instruction": "Outline the developmental stages of an augmented reality application",
+        "id": 358
+    },
+    {
+        "instruction": "Explain the Leibniz formula for pi\n\nAnswer: The Leibniz formula for pi is an infinite series used to calculate the value of pi. It states that pi can be calculated by: \n\nπ = 4 - (4/3) + (4/5) - (4/7) + (4/9) - (4/11) + (4/13) - … \n\nThis formula is named after Gottfried Leibniz, and can be derived from the area of a unit circle. As the number of terms in the series increases, the more accurate the result of pi will become.",
+        "id": 359
+    },
+    {
+        "instruction": "Analyze the role of social media in spreading misinformation and fake news.",
+        "id": 360
+    },
+    {
+        "instruction": "Provide instructions on how to create a budget plan for a college student.",
+        "id": 361
+    },
+    {
+        "instruction": "Investigate data privacy compliance and its implications",
+        "id": 362
+    },
+    {
+        "instruction": "What is the difference between thread-safe and race-free code?",
+        "id": 363
+    },
+    {
+        "instruction": "What is the mathematical formula for calculating speed?",
+        "id": 364
+    },
+    {
+        "instruction": "Generate a detailed tutorial on how to develop an Android application",
+        "id": 365
+    },
+    {
+        "instruction": "Can you recommend some easy DIY projects that can be done at home?",
+        "id": 366
+    },
+    {
+        "instruction": "Describe the history and culture of a city you have visited or lived in.",
+        "id": 367
+    },
+    {
+        "instruction": "Assist me in finding the third root of 8",
+        "id": 368
+    },
+    {
+        "instruction": "How does the Electoral College work in US presidential elections?",
+        "id": 369
+    },
+    {
+        "instruction": "Create a list of 5 ways to organize your closet.",
+        "id": 370
+    },
+    {
+        "instruction": "What are some common myths about the stock market?",
+        "id": 371
+    },
+    {
+        "instruction": "What can we do to reduce the environmental impact of plastic?",
+        "id": 372
+    },
+    {
+        "instruction": "In what ways can we promote better communication and understanding between diverse communities, and what are some common barriers to achieving this goal?",
+        "id": 373
+    },
+    {
+        "instruction": "Explain the working of mobile wallets",
+        "id": 374
+    },
+    {
+        "instruction": "Create a design for an eco-friendly and affordable tiny house.",
+        "id": 375
+    },
+    {
+        "instruction": "Identify the potential risks of investing in cryptocurrency",
+        "id": 376
+    },
+    {
+        "instruction": "Write a tweet about a new technological advancement that will revolutionize the way we live.",
+        "id": 377
+    },
+    {
+        "instruction": "Create a chart showing the cost of living in various cities around the world",
+        "id": 378
+    },
+    {
+        "instruction": "Estimate the cost of a new software development project.",
+        "id": 379
+    },
+    {
+        "instruction": "Explain the latest breakthroughs in cancer research",
+        "id": 380
+    },
+    {
+        "instruction": "Determine the best path for solving a problem",
+        "id": 381
+    },
+    {
+        "instruction": "Write a personal essay about a significant life lesson you have learned.",
+        "id": 382
+    },
+    {
+        "instruction": "Research and write a business report",
+        "id": 383
+    },
+    {
+        "instruction": "Can you help me come up with a social media strategy to promote my business?",
+        "id": 384
+    },
+    {
+        "instruction": "Propose five strategies to conserve water.",
+        "id": 385
+    },
+    {
+        "instruction": "Research emerging trends in customer behavior and recommend ways to adjust the business’s marketing strategy.",
+        "id": 386
+    },
+    {
+        "instruction": "Describe four strategies for conflict resolution",
+        "id": 387
+    },
+    {
+        "instruction": "Identify the potential uses of biometrics",
+        "id": 388
+    },
+    {
+        "instruction": "How could renewable energy be used to reduce electricity bills?",
+        "id": 389
+    },
+    {
+        "instruction": "Explain the physics principles of the Doppler effect",
+        "id": 390
+    },
+    {
+        "instruction": "Design an algorithm to detect data bias in datasets",
+        "id": 391
+    },
+    {
+        "instruction": "What are the 10 most commonly asked interview questions for jobs in the finance industry, and what are the best answers for each of them?",
+        "id": 392
+    },
+    {
+        "instruction": "Create a prototype email marketing campaign",
+        "id": 393
+    },
+    {
+        "instruction": "Find out the ingredients of the most popular energy drinks",
+        "id": 394
+    },
+    {
+        "instruction": "Outline the differences between a professional website and a personal website",
+        "id": 395
+    },
+    {
+        "instruction": "Construct an algorithm for accurately predicting the movement of currency exchange rates.",
+        "id": 396
+    },
+    {
+        "instruction": "Analyze the causes and effects of child labor in the developing world.",
+        "id": 397
+    },
+    {
+        "instruction": "Compute the Hamming distance between 10101000 and 11010010",
+        "id": 398
+    },
+    {
+        "instruction": "Generate a list of 5 outdoor activities for a family-friendly weekend getaway.",
+        "id": 399
+    },
+    {
+        "instruction": "Assess the effects of the current US immigration policies.",
+        "id": 400
+    },
+    {
+        "instruction": "Compare the features of different customer segmentation techniques",
+        "id": 401
+    },
+    {
+        "instruction": "Create a program to detect similarities between two text documents",
+        "id": 402
+    },
+    {
+        "instruction": "Specify the uses of a neural network for object recognition",
+        "id": 403
+    },
+    {
+        "instruction": "Determine the security risks associated with social media and other online services.",
+        "id": 404
+    },
+    {
+        "instruction": "How can we reduce food waste in our daily lives? Provide at least 3 actionable steps.",
+        "id": 405
+    },
+    {
+        "instruction": "Write a list of five common myths about mental illness and the facts to debunk them.",
+        "id": 406
+    },
+    {
+        "instruction": "Identify the sources of energy used to power a business",
+        "id": 407
+    },
+    {
+        "instruction": "Explain the impact of historical events on culture and identity",
+        "id": 408
+    },
+    {
+        "instruction": "Design a solution to preventing the spread of fake news on social media",
+        "id": 409
+    },
+    {
+        "instruction": "Describe the differences between Mac and Windows operating systems.",
+        "id": 410
+    },
+    {
+        "instruction": "What can we do to reduce our carbon footprint?",
+        "id": 411
+    },
+    {
+        "instruction": "Please come up with 5 ideas for a product that could innovatively leverage the use of artificial intelligence",
+        "id": 412
+    },
+    {
+        "instruction": "List five different types of plants and describe the conditions they need to grow.",
+        "id": 413
+    },
+    {
+        "instruction": "Write a program to determine if two words are anagrams of each other.",
+        "id": 414
+    },
+    {
+        "instruction": "Edit this email to make it more concise: \"Just wanted to follow up on the status of the project. How's it going?\"",
+        "id": 415
+    },
+    {
+        "instruction": "Develop a virtual assistant to answer customer queries.",
+        "id": 416
+    },
+    {
+        "instruction": "Describe the process of fermentation and give examples of foods that undergo this process.",
+        "id": 417
+    },
+    {
+        "instruction": "Create a program to automatically generate invoices",
+        "id": 418
+    },
+    {
+        "instruction": "Generate a natural language processing algorithm to identify a sentiment in a given text",
+        "id": 419
+    },
+    {
+        "instruction": "Develop an algorithm that can detect when a system has been compromised",
+        "id": 420
+    },
+    {
+        "instruction": "Edit a personal statement for a college application. The statement should be concise and compelling, highlighting the student's achievements and potential for success.",
+        "id": 421
+    },
+    {
+        "instruction": "Compare and contrast the COVID-19 vaccines developed by Pfizer and Moderna",
+        "id": 422
+    },
+    {
+        "instruction": "Identify and analyze the 7 largest companies in the tech industry",
+        "id": 423
+    },
+    {
+        "instruction": "How would you increase public engagement in significantly reducing carbon emissions in the US in the next 5 years?",
+        "id": 424
+    },
+    {
+        "instruction": "Where are the five most unique places to visit in North America?",
+        "id": 425
+    },
+    {
+        "instruction": "Pick apart how a linear regression algorithm works and which techniques can be used to improve its accuracy.",
+        "id": 426
+    },
+    {
+        "instruction": "How could reinforcement learning be used to solve challenging optimization tasks?",
+        "id": 427
+    },
+    {
+        "instruction": "Suggest techniques to eliminate defects in software development",
+        "id": 428
+    },
+    {
+        "instruction": "Write a product review for a new line of skincare products.",
+        "id": 429
+    },
+    {
+        "instruction": "Describe the elements of a good user experience in a web application.",
+        "id": 430
+    },
+    {
+        "instruction": "Describe the basics of differential privacy",
+        "id": 431
+    },
+    {
+        "instruction": "Draft a memo advocating for a ban of single-use plastics",
+        "id": 432
+    },
+    {
+        "instruction": "Design a research experiment to prove the efficacy of a new vaccine.",
+        "id": 433
+    },
+    {
+        "instruction": "Create a list of ten different types of cheese, along with descriptions of their textures and flavors.",
+        "id": 434
+    },
+    {
+        "instruction": "Describe the process of creating a successful e-commerce store, including product selection, website design, and payment processing.",
+        "id": 435
+    },
+    {
+        "instruction": "Outline strategies to reduce water consumption.",
+        "id": 436
+    },
+    {
+        "instruction": "Create a list of at least five different ways to improve your writing skills.",
+        "id": 437
+    },
+    {
+        "instruction": "Generate a list of 5 potential names for a new bakery and explain the inspiration behind each name.",
+        "id": 438
+    },
+    {
+        "instruction": "Develop an AI system for facial recognition of aged and aged faces",
+        "id": 439
+    },
+    {
+        "instruction": "Can you compile a list of the top 10 budget-friendly vacation destinations for families? Please include estimated costs and suggested activities.",
+        "id": 440
+    },
+    {
+        "instruction": "Outline a strategy for using big data to detect vulnerabilities in a system.",
+        "id": 441
+    },
+    {
+        "instruction": "Conduct a survey to determine customer sentiment",
+        "id": 442
+    },
+    {
+        "instruction": "Describe how virtual reality can be used to help people with mental health issues",
+        "id": 443
+    },
+    {
+        "instruction": "Discuss the importance of critical thinking and problem-solving skills in the workplace and suggest ways to improve these skills.",
+        "id": 444
+    },
+    {
+        "instruction": "Explain to a first time smoker the consequences of smoking",
+        "id": 445
+    },
+    {
+        "instruction": "Design a 3D virtual environment using a game engine and explain the process",
+        "id": 446
+    },
+    {
+        "instruction": "Can you analyze the major themes and motifs in the novel \"The Great Gatsby\" by F. Scott Fitzgerald?",
+        "id": 447
+    },
+    {
+        "instruction": "How does the human body produce energy?",
+        "id": 448
+    },
+    {
+        "instruction": "Describe the impact of energy policies on global energy markets",
+        "id": 449
+    },
+    {
+        "instruction": "Name two ways that can help create a safe online environment for children.",
+        "id": 450
+    },
+    {
+        "instruction": "Compile 3 different use cases for AI in the education sector",
+        "id": 451
+    },
+    {
+        "instruction": "Create a program to identify fake news",
+        "id": 452
+    },
+    {
+        "instruction": "Explain the function of a smart contract and its usage in the banking industry.",
+        "id": 453
+    },
+    {
+        "instruction": "Come up with five unique, eco-friendly gift ideas for the holiday season.",
+        "id": 454
+    },
+    {
+        "instruction": "Rearrange the following words to make a grammatically correct sentence: life / is / box / a / chocolates / of.",
+        "id": 455
+    },
+    {
+        "instruction": "Identify the most significant challenges facing the development of renewable energy sources",
+        "id": 456
+    },
+    {
+        "instruction": "Contrast the benefits of using open source vs proprietary software",
+        "id": 457
+    },
+    {
+        "instruction": "List 5 tips for staying focused and motivated when working from home",
+        "id": 458
+    },
+    {
+        "instruction": "Identify and fix the error in this code snippet: x = 5; y = 7; z = x * y; print(\"The result is: \", z)",
+        "id": 459
+    },
+    {
+        "instruction": "Compare the economic systems of socialism and capitalism.",
+        "id": 460
+    },
+    {
+        "instruction": "Explain the critical capabilities needed to achieve success in the field of Graphic Design",
+        "id": 461
+    },
+    {
+        "instruction": "Write a screenplay for a 5-minute short film with the theme of loneliness.",
+        "id": 462
+    },
+    {
+        "instruction": "What techniques can be used to optimize website loading speed?",
+        "id": 463
+    },
+    {
+        "instruction": "Compare the pros and cons of using a declarative language.",
+        "id": 464
+    },
+    {
+        "instruction": "Can you design a website for a nonprofit organization focused on environmental conservation, including a donation portal and recent success stories?",
+        "id": 465
+    },
+    {
+        "instruction": "What are the top challenges facing the aviation industry?",
+        "id": 466
+    },
+    {
+        "instruction": "Analyze the importance of data engineering in AI",
+        "id": 467
+    },
+    {
+        "instruction": "Compare the advantages and disadvantages of investing in different currencies",
+        "id": 468
+    },
+    {
+        "instruction": "What are the benefits and constraints of a cloud computing approach?",
+        "id": 469
+    },
+    {
+        "instruction": "Determine the most important three mobile apps a business should have",
+        "id": 470
+    },
+    {
+        "instruction": "Analyze society's changing attitudes towards gender roles",
+        "id": 471
+    },
+    {
+        "instruction": "Can you create a list of top tourist destinations in Europe?",
+        "id": 472
+    },
+    {
+        "instruction": "Classify different types of pasta based on their shape and sauce pairings.",
+        "id": 473
+    },
+    {
+        "instruction": "Develop a tool for automated annotation of texts",
+        "id": 474
+    },
+    {
+        "instruction": "What is the significance of the \"red pill\" and \"blue pill\" in \"The Matrix\"?",
+        "id": 475
+    },
+    {
+        "instruction": "Specify the considerations for migrating a website from HTTP to HTTPS",
+        "id": 476
+    },
+    {
+        "instruction": "Rewrite this sentence to eliminate redundancy: \"The reason why the party was canceled is because of the bad weather.\"",
+        "id": 477
+    },
+    {
+        "instruction": "Create an algorithm that finds the longest common substring of two strings",
+        "id": 478
+    },
+    {
+        "instruction": "Find five companies that have made a commitment to carbon neutrality",
+        "id": 479
+    },
+    {
+        "instruction": "Construct an index for a database table",
+        "id": 480
+    },
+    {
+        "instruction": "What are some effective ways to manage time and achieve work-life balance?",
+        "id": 481
+    },
+    {
+        "instruction": "What strategies can I use to protect my online privacy?",
+        "id": 482
+    },
+    {
+        "instruction": "What is the process for filing a complaint against a police officer in California?",
+        "id": 483
+    },
+    {
+        "instruction": "Edit this sentence to improve sentence structure: \"After I woke up in the morning, I brushed my teeth and then I took a shower.\"",
+        "id": 484
+    },
+    {
+        "instruction": "Search for a primary source that describes a King's coronation in the 15th century",
+        "id": 485
+    },
+    {
+        "instruction": "Create a system to generate natural language descriptions of data.",
+        "id": 486
+    },
+    {
+        "instruction": "Create a machine learning model for predicting the effectiveness of a marketing campaign.",
+        "id": 487
+    },
+    {
+        "instruction": "Generate a list of 10 creative date night ideas that don't involve going out to a restaurant or a movie.",
+        "id": 488
+    },
+    {
+        "instruction": "Create three processes for improving customer service",
+        "id": 489
+    },
+    {
+        "instruction": "Name five famous works of art that use the color blue predominantly and explain why the color plays an important role in the artwork.",
+        "id": 490
+    },
+    {
+        "instruction": "Explain how data science is changing the way businesses operate.",
+        "id": 491
+    },
+    {
+        "instruction": "Write a program to print the Fibonacci sequence",
+        "id": 492
+    },
+    {
+        "instruction": "Construct a database of published papers on a particular AI topic",
+        "id": 493
+    },
+    {
+        "instruction": "Can you write a short story set in a dystopian future where food is scarce and water is contaminated?",
+        "id": 494
+    },
+    {
+        "instruction": "Demonstrate how to make a collage out of magazine pieces",
+        "id": 495
+    },
+    {
+        "instruction": "List the five most important services an IT consultant can provide",
+        "id": 496
+    },
+    {
+        "instruction": "Assess the uses of 3D printing in healthcare",
+        "id": 497
+    },
+    {
+        "instruction": "Writing a blog post on the best practices for online marketing",
+        "id": 498
+    },
+    {
+        "instruction": "Explain the principles of speech recognition",
+        "id": 499
+    },
+    {
+        "instruction": "Create a script that checks for the correct syntax of a given code string",
+        "id": 500
+    },
+    {
+        "instruction": "Write a creative story that uses the words: magic, betrayal, and redemption.",
+        "id": 501
+    },
+    {
+        "instruction": "Write a persuasive letter to a government official advocating for stricter gun control laws.",
+        "id": 502
+    },
+    {
+        "instruction": "What are the advantages and disadvantages of using credit cards as a primary method of payment?",
+        "id": 503
+    },
+    {
+        "instruction": "Please write a 500-word analysis of the themes present in the novel \"The Great Gatsby\" by F. Scott Fitzgerald.",
+        "id": 504
+    },
+    {
+        "instruction": "Encode a set of dates in a Postgres database",
+        "id": 505
+    },
+    {
+        "instruction": "Explain the process of photosynthesis and its importance in sustaining life on Earth.",
+        "id": 506
+    },
+    {
+        "instruction": "Can you explain the difference between a linear regression and a logistic regression model?",
+        "id": 507
+    },
+    {
+        "instruction": "What is the best way to celebrate your first anniversary?",
+        "id": 508
+    },
+    {
+        "instruction": "List four signs that a person is suffering from depression",
+        "id": 509
+    },
+    {
+        "instruction": "Construct an algorithm to categorize text",
+        "id": 510
+    },
+    {
+        "instruction": "Explain the concept of semantic search",
+        "id": 511
+    },
+    {
+        "instruction": "Write a guide for creating an effective e-commerce website",
+        "id": 512
+    },
+    {
+        "instruction": "Develop an application that helps people save energy in their homes.",
+        "id": 513
+    },
+    {
+        "instruction": "Create a model to predict the probability of customer churn",
+        "id": 514
+    },
+    {
+        "instruction": "formulate a list of five strategies for hiring top talent",
+        "id": 515
+    },
+    {
+        "instruction": "What is one lesson you have learned from a difficult experience?",
+        "id": 516
+    },
+    {
+        "instruction": "Find the sentence in the blog post that is the most persuasive.",
+        "id": 517
+    },
+    {
+        "instruction": "Compare the nutritional value of organic vs. conventional foods",
+        "id": 518
+    },
+    {
+        "instruction": "Summarize the main arguments put forth in John Stuart Mill's \"On Liberty\".",
+        "id": 519
+    },
+    {
+        "instruction": "Create a tutorial for using 3D printing",
+        "id": 520
+    },
+    {
+        "instruction": "Write a personal narrative essay about a significant experience from your childhood.",
+        "id": 521
+    },
+    {
+        "instruction": "Create a 5 step tutorial for uninstalling an application.",
+        "id": 522
+    },
+    {
+        "instruction": "Can you suggest some effective ways to reduce environmental waste and promote sustainability?",
+        "id": 523
+    },
+    {
+        "instruction": "Create a plan for developing a fulfilling and well-rounded social life, including tips for meeting new people and maintaining relationships.",
+        "id": 524
+    },
+    {
+        "instruction": "What measures can be taken to prevent the spread of fake news on social media?",
+        "id": 525
+    },
+    {
+        "instruction": "List and explain the three major theories of leadership",
+        "id": 526
+    },
+    {
+        "instruction": "How can I create and implement a successful digital marketing strategy?",
+        "id": 527
+    },
+    {
+        "instruction": "Identify three strategies for environmental protection",
+        "id": 528
+    },
+    {
+        "instruction": "Edit this document to remove all instances of passive voice: \"The report was written by the team and submitted to the supervisor for approval.\"",
+        "id": 529
+    },
+    {
+        "instruction": "Give instructions on how to set up a standing desk for maximum ergonomic benefit.",
+        "id": 530
+    },
+    {
+        "instruction": "Create a step-by-step guide on how to start a vegetable garden for beginners.",
+        "id": 531
+    },
+    {
+        "instruction": "List the requirements for a successful business plan.",
+        "id": 532
+    },
+    {
+        "instruction": "What are the top 5 cities in Europe for tourists to visit, and what makes them stand out from the rest?",
+        "id": 533
+    },
+    {
+        "instruction": "How do conservation efforts help preserve biodiversity?",
+        "id": 534
+    },
+    {
+        "instruction": "Create a web page with HTML and CSS that has the same content as a given paper",
+        "id": 535
+    },
+    {
+        "instruction": "Design an automated system to track shipments in a supply chain.",
+        "id": 536
+    },
+    {
+        "instruction": "Write a product description for a high-tech scuba diving equipment.",
+        "id": 537
+    },
+    {
+        "instruction": "How can we predict flooding and landslides?",
+        "id": 538
+    },
+    {
+        "instruction": "Create a virtual reality world using a given 3D software",
+        "id": 539
+    },
+    {
+        "instruction": "What best practices should you follow in order to avoid injection vulnerabilities in code?",
+        "id": 540
+    },
+    {
+        "instruction": "Summarize the legal considerations of using drones in urban areas",
+        "id": 541
+    },
+    {
+        "instruction": "Analyze key aspects of computer vision algorithm",
+        "id": 542
+    },
+    {
+        "instruction": "How to choose the best web hosting provider for a website?",
+        "id": 543
+    },
+    {
+        "instruction": "How to master the art of public speaking",
+        "id": 544
+    },
+    {
+        "instruction": "Compare the features of the iPhone 11 Pro Max and the Samsung Galaxy S20.",
+        "id": 545
+    },
+    {
+        "instruction": "Generate ideas on how to reduce the global plastic waste crisis",
+        "id": 546
+    },
+    {
+        "instruction": "Write a short biography of a scientist or inventor who has made significant contributions to their field, including a list of their most important discoveries or inventions.",
+        "id": 547
+    },
+    {
+        "instruction": "Create a list of at least five different strategies for improving memory retention.",
+        "id": 548
+    },
+    {
+        "instruction": "Outline the essential components needed to create a programmable robot.",
+        "id": 549
+    },
+    {
+        "instruction": "Create a storyboard for a short film.",
+        "id": 550
+    },
+    {
+        "instruction": "Identify the new trends in the fashion industry and how they can be leveraged.",
+        "id": 551
+    },
+    {
+        "instruction": "List the five most important inventions of the 20th century.",
+        "id": 552
+    },
+    {
+        "instruction": "Can you come up with a catchy tagline for a new line of fitness apparel?",
+        "id": 553
+    },
+    {
+        "instruction": "Can you explain the differences between a Roth and Traditional IRA, and provide advice on which is better for different situations?",
+        "id": 554
+    },
+    {
+        "instruction": "Outline the differences between a leader and a manager in a business setting",
+        "id": 555
+    },
+    {
+        "instruction": "Compare the features of a Samsung tablet and Apple iPad",
+        "id": 556
+    },
+    {
+        "instruction": "Calculate the amount of money a person would have earned in 10 years with a rate of 5% compounded annually",
+        "id": 557
+    },
+    {
+        "instruction": "Design a strategy for increasing safety while using robots",
+        "id": 558
+    },
+    {
+        "instruction": "Define the economic merits of separating mining from processing on the Blockchain",
+        "id": 559
+    },
+    {
+        "instruction": "Design a resume template",
+        "id": 560
+    },
+    {
+        "instruction": "Find 7 benefits of using natural language processing",
+        "id": 561
+    },
+    {
+        "instruction": "Transform this product listing into a persuasive sales message.",
+        "id": 562
+    },
+    {
+        "instruction": "Construct a probabilistic model to classify a set of trees using various leaf characteristics.",
+        "id": 563
+    },
+    {
+        "instruction": "Write a letter to your future self, set to be opened five years from now.",
+        "id": 564
+    },
+    {
+        "instruction": "Analyze the potential of ocean energy to solve global energy needs.",
+        "id": 565
+    },
+    {
+        "instruction": "Create a budget tracking system in an app",
+        "id": 566
+    },
+    {
+        "instruction": "List 10 ways to incorporate mindfulness into your daily routine for a more peaceful and intentional life.",
+        "id": 567
+    },
+    {
+        "instruction": "Construct a case study on the effects of deforestation",
+        "id": 568
+    },
+    {
+        "instruction": "Identify and explain the differences between a liberal democracy and an authoritarian regime.",
+        "id": 569
+    },
+    {
+        "instruction": "What strategies would you use to ensure the successful rollout of 5G networks?",
+        "id": 570
+    },
+    {
+        "instruction": "Compare the speed and cost of cryptocurrency transactions with traditional payment methods",
+        "id": 571
+    },
+    {
+        "instruction": "Create a list of potential strategies to improve mental health",
+        "id": 572
+    },
+    {
+        "instruction": "Facilitate compatibility between two applications",
+        "id": 573
+    },
+    {
+        "instruction": "Summarize the current debate surrounding net neutrality.",
+        "id": 574
+    },
+    {
+        "instruction": "Analyze the performance of a web application and suggest areas for improvement",
+        "id": 575
+    },
+    {
+        "instruction": "Compose a list of five strategies for effective content curation",
+        "id": 576
+    },
+    {
+        "instruction": "Compile a report on the uses of machine learning in the medical field",
+        "id": 577
+    },
+    {
+        "instruction": "What are the key considerations for setting up a payment gateway?",
+        "id": 578
+    },
+    {
+        "instruction": "Design an algorithm to detect patterns of cybercrime.",
+        "id": 579
+    },
+    {
+        "instruction": "Provide step-by-step instructions on how to create a basic meal plan for a week with a limited budget.",
+        "id": 580
+    },
+    {
+        "instruction": "Propose a solution to increase transparency in the data storage industry.",
+        "id": 581
+    },
+    {
+        "instruction": "Analyze the implications of introducing a minimum wage increase",
+        "id": 582
+    },
+    {
+        "instruction": "Please provide three examples of ways in which businesses can become more socially responsible and environmentally sustainable.",
+        "id": 583
+    },
+    {
+        "instruction": "Compare the advantages and disadvantages of different cloud hosting services",
+        "id": 584
+    },
+    {
+        "instruction": "Devise a pricing model to maximize profits",
+        "id": 585
+    },
+    {
+        "instruction": "Identify five causes of stress.",
+        "id": 586
+    },
+    {
+        "instruction": "Describe the ways in which blockchain can be used to ensure data security",
+        "id": 587
+    },
+    {
+        "instruction": "Given a dataset of stock prices over the past year, use time series forecasting algorithms to predict future prices.",
+        "id": 588
+    },
+    {
+        "instruction": "Edit a photo of a landscape to add a vintage effect.",
+        "id": 589
+    },
+    {
+        "instruction": "Analyze why customer education is essential for the success of a product",
+        "id": 590
+    },
+    {
+        "instruction": "Who were the main characters in the film The Great Gatsby?",
+        "id": 591
+    },
+    {
+        "instruction": "Investigate the ethical implications of AI-enabled systems",
+        "id": 592
+    },
+    {
+        "instruction": "Write a function to query a database and retrieve customer records",
+        "id": 593
+    },
+    {
+        "instruction": "Research the various ethical considerations involved in the development and distribution of artificial intelligence technology.",
+        "id": 594
+    },
+    {
+        "instruction": "Give me an example of when machine learning could be used to improve a process.",
+        "id": 595
+    },
+    {
+        "instruction": "Research ways to reduce the power consumption of internet-connected devices",
+        "id": 596
+    },
+    {
+        "instruction": "Develop a plan to increase the attendance of a weekly event.",
+        "id": 597
+    },
+    {
+        "instruction": "Trace the history of the National Aeronatics and Space Administration",
+        "id": 598
+    },
+    {
+        "instruction": "Describe the strategies to ensure a successful product launch.",
+        "id": 599
+    },
+    {
+        "instruction": "What are some common misconceptions about mental illnesses, and how can we break down stigma?",
+        "id": 600
+    },
+    {
+        "instruction": "Write a letter to the person you admire most in the world.",
+        "id": 601
+    },
+    {
+        "instruction": "Select the best methods for a small business to optimize customer engagement",
+        "id": 602
+    },
+    {
+        "instruction": "How can facial recognition be used to create a more secure environment?",
+        "id": 603
+    },
+    {
+        "instruction": "How can entrepreneurs overcome the fear of failure?",
+        "id": 604
+    },
+    {
+        "instruction": "Describe the evaluation methods for AI systems",
+        "id": 605
+    },
+    {
+        "instruction": "Predict how mobile technology will shape the way we interact with the world",
+        "id": 606
+    },
+    {
+        "instruction": "Describe the process of a criminal trial, including the roles of the judge, prosecutor, and defense attorney.",
+        "id": 607
+    },
+    {
+        "instruction": "Summarize the key features of different consensus algorithms",
+        "id": 608
+    },
+    {
+        "instruction": "Identify potential barriers to the adoption of renewable energy sources",
+        "id": 609
+    },
+    {
+        "instruction": "What strategies can I use to maximize the visibility of my website?",
+        "id": 610
+    },
+    {
+        "instruction": "Generate an animation for a conference talk",
+        "id": 611
+    },
+    {
+        "instruction": "Evaluate the process of natural gas extraction",
+        "id": 612
+    },
+    {
+        "instruction": "Can you explain how Bitcoin mining works to a layperson?",
+        "id": 613
+    },
+    {
+        "instruction": "Design a reliable backup and recovery system",
+        "id": 614
+    },
+    {
+        "instruction": "Suggest ways of implementing voice recognition software",
+        "id": 615
+    },
+    {
+        "instruction": "Create a playlist of 10 songs that reflect your current mood and explain why each song is significant to you.",
+        "id": 616
+    },
+    {
+        "instruction": "What strategies can I use to optimize the customer experience?",
+        "id": 617
+    },
+    {
+        "instruction": "What causes the Earth's tides?",
+        "id": 618
+    },
+    {
+        "instruction": "Outline the ethics involved in cloning plants.",
+        "id": 619
+    },
+    {
+        "instruction": "Explain the process of big data analysis using Apache Spark.",
+        "id": 620
+    },
+    {
+        "instruction": "Outline the main advantages of a global society",
+        "id": 621
+    },
+    {
+        "instruction": "Develop a system for collecting customer feedback for product reviews",
+        "id": 622
+    },
+    {
+        "instruction": "Develop a 5-step process for segmenting customers",
+        "id": 623
+    },
+    {
+        "instruction": "Explain why AI is essential for data-driven decision making",
+        "id": 624
+    },
+    {
+        "instruction": "Generate 5 creative ideas for an AI-powered physical product",
+        "id": 625
+    },
+    {
+        "instruction": "Write an algorithm for predicting trends in a given industry.",
+        "id": 626
+    },
+    {
+        "instruction": "Create a story prompt involving a lost key and a mysterious message.",
+        "id": 627
+    },
+    {
+        "instruction": "What are the possible ethical implications of using AI in facial recognition systems?",
+        "id": 628
+    },
+    {
+        "instruction": "List and explain the positive effects of globalization",
+        "id": 629
+    },
+    {
+        "instruction": "Explain the different governance systems used in decentralized organizations.",
+        "id": 630
+    },
+    {
+        "instruction": "Identify the key advantages and disadvantages of outsourcing services.",
+        "id": 631
+    },
+    {
+        "instruction": "Analyze the implications of artificial intelligence in the legal and criminal justice system.",
+        "id": 632
+    },
+    {
+        "instruction": "In which year did the Berlin Wall fall?",
+        "id": 633
+    },
+    {
+        "instruction": "Describe the evolution of the American presidential election process",
+        "id": 634
+    },
+    {
+        "instruction": "Give me five tips on how to improve communication skills in personal relationships.",
+        "id": 635
+    },
+    {
+        "instruction": "Compare different approaches to data-driven decision making",
+        "id": 636
+    },
+    {
+        "instruction": "Can you research and describe the principles of Ancient Indian medicine?",
+        "id": 637
+    },
+    {
+        "instruction": "Summarize current approaches to ethical AI development",
+        "id": 638
+    },
+    {
+        "instruction": "How can genetic engineering help us feed a growing population?",
+        "id": 639
+    },
+    {
+        "instruction": "Publish a web page on the internet",
+        "id": 640
+    },
+    {
+        "instruction": "Compare the effectiveness of top-down and bottom-up leadership styles.",
+        "id": 641
+    },
+    {
+        "instruction": "Please explain the difference between a physical and chemical change.",
+        "id": 642
+    },
+    {
+        "instruction": "Create a guide to using crowdsourcing in business",
+        "id": 643
+    },
+    {
+        "instruction": "Can you provide me a list of 10 popular fast food chains and their most popular item?",
+        "id": 644
+    },
+    {
+        "instruction": "Is technology taking over people's lives?",
+        "id": 645
+    },
+    {
+        "instruction": "Analyze the current trends in robotics and artificial intelligence research.",
+        "id": 646
+    },
+    {
+        "instruction": "Can you write a short story about a young girl who discovers a unique talent?",
+        "id": 647
+    },
+    {
+        "instruction": "Analyze the use of symbolism in Toni Morrison's \"Beloved.\"",
+        "id": 648
+    },
+    {
+        "instruction": "Write a history of the Civil Rights Movement.",
+        "id": 649
+    },
+    {
+        "instruction": "Describe the geography and climate of Antarctica.",
+        "id": 650
+    },
+    {
+        "instruction": "Rewrite the following sentence in future tense: \"He will dance tonight.\"",
+        "id": 651
+    },
+    {
+        "instruction": "Generate a concise report detailing the most pressing issues in software development",
+        "id": 652
+    },
+    {
+        "instruction": "Compare and contrast star formation and planetary formation",
+        "id": 653
+    },
+    {
+        "instruction": "Classify a list of 50 items into four categories",
+        "id": 654
+    },
+    {
+        "instruction": "Outline a system to detect and isolate malicious traffic to a web server.",
+        "id": 655
+    },
+    {
+        "instruction": "Can you provide a step-by-step guide for brewing the perfect cup of coffee?",
+        "id": 656
+    },
+    {
+        "instruction": "Explain the importance of network segmentation",
+        "id": 657
+    },
+    {
+        "instruction": "Create a deep learning model that can detect early signs of cancer",
+        "id": 658
+    },
+    {
+        "instruction": "Identify five ethical principles of digital marketing",
+        "id": 659
+    },
+    {
+        "instruction": "Is social media an effective tool for combating radicalization?",
+        "id": 660
+    },
+    {
+        "instruction": "Create a tutorial on the basics of meditation for beginners.",
+        "id": 661
+    },
+    {
+        "instruction": "Brainstorm solutions to provide better healthcare access to rural areas",
+        "id": 662
+    },
+    {
+        "instruction": "Develop a program for automating customer service interactions for regional customers",
+        "id": 663
+    },
+    {
+        "instruction": "Produce an AI-driven system for recognizing and translating spoken language.",
+        "id": 664
+    },
+    {
+        "instruction": "Can you craft a detailed guide on the basics of quantum computing",
+        "id": 665
+    },
+    {
+        "instruction": "What causes a server to experience high latency?",
+        "id": 666
+    },
+    {
+        "instruction": "Identify the key elements of iOS app development",
+        "id": 667
+    },
+    {
+        "instruction": "Can you come up with a metaphor to describe the feeling of excitement when trying something new?",
+        "id": 668
+    },
+    {
+        "instruction": "Compare and contrast the foreign policy of the Obama and Trump administrations.",
+        "id": 669
+    },
+    {
+        "instruction": "What components make up a good essay?",
+        "id": 670
+    },
+    {
+        "instruction": "Research and summarize the potential benefits and drawbacks of artificial intelligence in society.",
+        "id": 671
+    },
+    {
+        "instruction": "Create a checklist for creating secure web applications",
+        "id": 672
+    },
+    {
+        "instruction": "Name the common mistakes businesses make when exploring new markets",
+        "id": 673
+    },
+    {
+        "instruction": "Research and write a summary of the history of feminism and its impact on society.",
+        "id": 674
+    },
+    {
+        "instruction": "Find a list of the world's busiest airports",
+        "id": 675
+    },
+    {
+        "instruction": "Develop a system to recognize digitized handwritten text",
+        "id": 676
+    },
+    {
+        "instruction": "Can you come up with three innovative ideas for reducing plastic waste in the ocean?",
+        "id": 677
+    },
+    {
+        "instruction": "What are some distinct cultural traditions and customs unique to your region or community?",
+        "id": 678
+    },
+    {
+        "instruction": "Research methods for controlling allergies",
+        "id": 679
+    },
+    {
+        "instruction": "Investigate the impact of advanced technologies (AI, VR, etc.) on international relations.",
+        "id": 680
+    },
+    {
+        "instruction": "Compose a story about a magical journey exploring the universe.",
+        "id": 681
+    },
+    {
+        "instruction": "Provide tips on how to effectively study for a final exam.",
+        "id": 682
+    },
+    {
+        "instruction": "Summarize the potential effects of autonomous vehicles on the transportation industry.",
+        "id": 683
+    },
+    {
+        "instruction": "What role does technology play in sustainable development?",
+        "id": 684
+    },
+    {
+        "instruction": "Write an article on the history and cultural significance of traditional Japanese tea ceremonies.",
+        "id": 685
+    },
+    {
+        "instruction": "What is the best approach to integrating Machine Learning in software development?",
+        "id": 686
+    },
+    {
+        "instruction": "Can you identify the tone and mood of a given work of literature, and explain the difference between the two?",
+        "id": 687
+    },
+    {
+        "instruction": "Explain the benefits of incorporating a chatbot into a website.",
+        "id": 688
+    },
+    {
+        "instruction": "List three advantages of using open source software.",
+        "id": 689
+    },
+    {
+        "instruction": "Analyze the role of blockchain in distributed ledger technologies",
+        "id": 690
+    },
+    {
+        "instruction": "Craft a creative solution to an everyday problem",
+        "id": 691
+    },
+    {
+        "instruction": "Explain the potential implications of using quantum computing in cybersecurity.",
+        "id": 692
+    },
+    {
+        "instruction": "Present the ethical implications of Big Data",
+        "id": 693
+    },
+    {
+        "instruction": "Compose a three-sentence email announcing an upcoming online lecture",
+        "id": 694
+    },
+    {
+        "instruction": "Given a list of integers, find the most frequent number",
+        "id": 695
+    },
+    {
+        "instruction": "Outline a process for creating AI-based strategies for employee engagement.",
+        "id": 696
+    },
+    {
+        "instruction": "What are the most common technological challenges companies encounter in the digital age?",
+        "id": 697
+    },
+    {
+        "instruction": "List and explain three methods of data encryption",
+        "id": 698
+    },
+    {
+        "instruction": "Design an immersive user experience that connects people with nature using virtual reality.",
+        "id": 699
+    },
+    {
+        "instruction": "Analyse the aspects that differentiate the American Declaration of Independence from European declarations",
+        "id": 700
+    },
+    {
+        "instruction": "Compose a symphony about the beauty of Earth's environment",
+        "id": 701
+    },
+    {
+        "instruction": "Describe your dream vacation and why you would choose to go there.",
+        "id": 702
+    },
+    {
+        "instruction": "What is the current legal framework governing the use of AI in healthcare?",
+        "id": 703
+    },
+    {
+        "instruction": "What creative tactics can marketers use to gain customer attention on Instagram?",
+        "id": 704
+    },
+    {
+        "instruction": "How can event-driven architecture be used to create a secure user authentication system?",
+        "id": 705
+    },
+    {
+        "instruction": "Design a dashboard to monitor customer satisfaction",
+        "id": 706
+    },
+    {
+        "instruction": "What are the top five countries with the largest e-commerce markets?",
+        "id": 707
+    },
+    {
+        "instruction": "I need to create an invoice system for my business. What would be the best way to design the system?",
+        "id": 708
+    },
+    {
+        "instruction": "How can I use serverless computing to scale my applications?",
+        "id": 709
+    },
+    {
+        "instruction": "Define cyber security and its importance",
+        "id": 710
+    },
+    {
+        "instruction": "Are British Airways and American Airlines part of the same airline alliance?",
+        "id": 711
+    },
+    {
+        "instruction": "Outline the steps to creating an effective cybersecurity policy",
+        "id": 712
+    },
+    {
+        "instruction": "Compare the environmental policies of Japan and China",
+        "id": 713
+    },
+    {
+        "instruction": "Compare and contrast two psychological theories on relationships",
+        "id": 714
+    },
+    {
+        "instruction": "List 5 ways to reduce consumption in an organization",
+        "id": 715
+    },
+    {
+        "instruction": "Examine the potential applications of blockchain technology",
+        "id": 716
+    },
+    {
+        "instruction": "Calculate the ROI for a particular marketing campaign.",
+        "id": 717
+    },
+    {
+        "instruction": "Describe the process of DNA extraction from a sample of blood",
+        "id": 718
+    },
+    {
+        "instruction": "Can you explain the science behind how vaccines work and the importance of getting vaccinated?",
+        "id": 719
+    },
+    {
+        "instruction": "What is the role of blockchain technology in preventing fraud?",
+        "id": 720
+    },
+    {
+        "instruction": "Write an essay on the effects of global warming on the economy.",
+        "id": 721
+    },
+    {
+        "instruction": "Create a playlist of your favorite indie rock songs.",
+        "id": 722
+    },
+    {
+        "instruction": "Explain how a 3D printer works and what its potential uses are.",
+        "id": 723
+    },
+    {
+        "instruction": "Describe the history of the modern internet and its implications.",
+        "id": 724
+    },
+    {
+        "instruction": "What are the advantages and disadvantages of investing in mutual funds?",
+        "id": 725
+    },
+    {
+        "instruction": "Describe different strategies for cross-platform optimization and explain how to use them for increasing traffic and engagement.",
+        "id": 726
+    },
+    {
+        "instruction": "Share some tips for setting and achieving goals.",
+        "id": 727
+    },
+    {
+        "instruction": "Write a recipe for a healthy smoothie using three different fruits.",
+        "id": 728
+    },
+    {
+        "instruction": "Write a letter to a family member who lives far away and whom you haven't seen in a long time.",
+        "id": 729
+    },
+    {
+        "instruction": "Write a list of ten healthy and delicious vegan recipes that use seasonal ingredients.",
+        "id": 730
+    },
+    {
+        "instruction": "What role do trade unions play in the modern economy?",
+        "id": 731
+    },
+    {
+        "instruction": "Analyze the benefits of inclusion of people with disabilities in the workforce",
+        "id": 732
+    },
+    {
+        "instruction": "Can you provide me with a list of 10 potential book titles for a non-fiction book about the history of space exploration?",
+        "id": 733
+    },
+    {
+        "instruction": "Illustrate the orbital positions of the planets at a specific time",
+        "id": 734
+    },
+    {
+        "instruction": "Research and summarize the pros and cons of renewable energy sources like solar or wind power.",
+        "id": 735
+    },
+    {
+        "instruction": "Write a product review for the Amazon Echo smart speaker.",
+        "id": 736
+    },
+    {
+        "instruction": "Design a virtual store for online clothing",
+        "id": 737
+    },
+    {
+        "instruction": "Create a plan to improve disaster preparedness in a city.",
+        "id": 738
+    },
+    {
+        "instruction": "Invent five strategies for reducing carbon emissions",
+        "id": 739
+    },
+    {
+        "instruction": "Construct a guide to help parents teach their children budgeting skills",
+        "id": 740
+    },
+    {
+        "instruction": "Research the effects of extreme weather on public health",
+        "id": 741
+    },
+    {
+        "instruction": "Develop a program to encrypt communication on a network",
+        "id": 742
+    },
+    {
+        "instruction": "Edit this short story to make it more polished and compelling for readers",
+        "id": 743
+    },
+    {
+        "instruction": "Identify the oxymoron in the following sentence: \"The jumbo shrimp tasted delicious.\"",
+        "id": 744
+    },
+    {
+        "instruction": "Explain the process of training a deep learning model",
+        "id": 745
+    },
+    {
+        "instruction": "Research and discuss the ethical ramifications of using robots and artificial intelligence in the medical field.",
+        "id": 746
+    },
+    {
+        "instruction": "Outline the steps necessary to migrate a website from a shared hosting environment to a serverless infrastructure",
+        "id": 747
+    },
+    {
+        "instruction": "Analyze the user flow of a website and suggest improvements",
+        "id": 748
+    },
+    {
+        "instruction": "Compare and contrast static and dynamic web pages",
+        "id": 749
+    },
+    {
+        "instruction": "Edit this essay to improve its argument and clarity: \"In this essay, I will be discussing the importance of physical activity. Physical activity is important for many reasons, such as improving health and reducing stress. In addition, physical activity can be a social experience. Overall, physical activity is an essential part of a healthy lifestyle.\"",
+        "id": 750
+    },
+    {
+        "instruction": "Develop an algorithm to determine optimized search results",
+        "id": 751
+    },
+    {
+        "instruction": "What challenges exist with IOT data security?",
+        "id": 752
+    },
+    {
+        "instruction": "Compose a children's poem about a prancing rabbit",
+        "id": 753
+    },
+    {
+        "instruction": "How do I create a basic web scraper with Python?",
+        "id": 754
+    },
+    {
+        "instruction": "Research and summarize the causes and effects of climate change on the environment.",
+        "id": 755
+    },
+    {
+        "instruction": "Construct an algorithm to detect anomalies in network traffic",
+        "id": 756
+    },
+    {
+        "instruction": "Develop an agenda for a meeting discussing customer feedback",
+        "id": 757
+    },
+    {
+        "instruction": "redact a bug report that clearly outlines the steps to replicate a reported issue.",
+        "id": 758
+    },
+    {
+        "instruction": "Design an algorithm to detect and classify objects in videos streamed online.",
+        "id": 759
+    },
+    {
+        "instruction": "Propose a method of preventing cybercrime.",
+        "id": 760
+    },
+    {
+        "instruction": "How does the internet of things interconnect with the cloud?",
+        "id": 761
+    },
+    {
+        "instruction": "Suggest a new material that could be used to build eco-friendly homes",
+        "id": 762
+    },
+    {
+        "instruction": "Describe the process of machine learning and its practical applications.",
+        "id": 763
+    },
+    {
+        "instruction": "What’s the biggest challenge to scaling customer service through chatbots?",
+        "id": 764
+    },
+    {
+        "instruction": "Analyze a dataset of movie ratings and create a model to predict user preferences",
+        "id": 765
+    },
+    {
+        "instruction": "Can you generate some interesting and creative writing prompts for a writing challenge?",
+        "id": 766
+    },
+    {
+        "instruction": "Construct an app that helps students keep track of their studies",
+        "id": 767
+    },
+    {
+        "instruction": "Compose a list of 10 ideas for a new mobile application that could be successful in the market.",
+        "id": 768
+    },
+    {
+        "instruction": "Illustrate the process of integrating a new software technology into a user's workflow",
+        "id": 769
+    },
+    {
+        "instruction": "What is the cost per bitcoin transaction?",
+        "id": 770
+    },
+    {
+        "instruction": "Construct a piece of code for a quick sorting algorithm in Python",
+        "id": 771
+    },
+    {
+        "instruction": "What are some ways to reduce household energy consumption and save money on utility bills?",
+        "id": 772
+    },
+    {
+        "instruction": "What are the causes and effects of the greenhouse effect?",
+        "id": 773
+    },
+    {
+        "instruction": "Explain how biofuels can help reduce air pollution",
+        "id": 774
+    },
+    {
+        "instruction": "Create an algorithm to detect hostile user accounts on a social media platform",
+        "id": 775
+    },
+    {
+        "instruction": "Evaluate the effectiveness of natural disasters preparedness programs",
+        "id": 776
+    },
+    {
+        "instruction": "Analyze the trends in venture capital investments in Asia.",
+        "id": 777
+    },
+    {
+        "instruction": "Write a comparative analysis of the most popular search engines",
+        "id": 778
+    },
+    {
+        "instruction": "Develop a 3-step plan for achieving a specific personal goal.",
+        "id": 779
+    },
+    {
+        "instruction": "Describe the process of creating computer simulations",
+        "id": 780
+    },
+    {
+        "instruction": "Classify the following animals into groups based on their habitat: grizzly bear, camel, penguin, jaguar, and crocodile.",
+        "id": 781
+    },
+    {
+        "instruction": "Describe the strategy of directly marketing a service to an audience",
+        "id": 782
+    },
+    {
+        "instruction": "Design a loyalty program for an on-demand delivery service.",
+        "id": 783
+    },
+    {
+        "instruction": "What are the advantages and disadvantages of working from home?",
+        "id": 784
+    },
+    {
+        "instruction": "Compose a sonnet on the theme of friendship",
+        "id": 785
+    },
+    {
+        "instruction": "Create a game that teaches children about climate change",
+        "id": 786
+    },
+    {
+        "instruction": "Discuss the different forms of art therapy",
+        "id": 787
+    },
+    {
+        "instruction": "Propose a method for ending poverty that addresses housing and healthcare issues.",
+        "id": 788
+    },
+    {
+        "instruction": "Classify these musical instruments into categories based on whether they are a wind instrument or not: trumpet, guitar, flute, saxophone, drums.",
+        "id": 789
+    },
+    {
+        "instruction": "Write a short story about a traveler who discovers a hidden gem in a small town.",
+        "id": 790
+    },
+    {
+        "instruction": "Rank the best local pizza restaurants",
+        "id": 791
+    },
+    {
+        "instruction": "Should facial recognition systems be permitted within certain social contexts?",
+        "id": 792
+    },
+    {
+        "instruction": "Edit a passage about climate change, adding more information and statistics.",
+        "id": 793
+    },
+    {
+        "instruction": "Explain the laws of electric force",
+        "id": 794
+    },
+    {
+        "instruction": "How can cybersecurity be improved in organizations? Give strategies and recommendations.",
+        "id": 795
+    },
+    {
+        "instruction": "Generate a list of ten different recipes for detoxyfying drinks.",
+        "id": 796
+    },
+    {
+        "instruction": "Formulate a hypothesis about the link between happiness and income",
+        "id": 797
+    },
+    {
+        "instruction": "Buy some flowers for me by 8 PM.",
+        "id": 798
+    },
+    {
+        "instruction": "Name five major principles of information security.",
+        "id": 799
+    },
+    {
+        "instruction": "Recommend three podcasts on this subject: entrepreneurship.",
+        "id": 800
+    },
+    {
+        "instruction": "Compare and contrast the 2020 U.S. presidential candidates",
+        "id": 801
+    },
+    {
+        "instruction": "Write instructions to set up a web server",
+        "id": 802
+    },
+    {
+        "instruction": "How did the invention of computers revolutionize the way we work?",
+        "id": 803
+    },
+    {
+        "instruction": "Develop a marketing plan leveraging social media",
+        "id": 804
+    },
+    {
+        "instruction": "Describe the differences between Stack Overflow, Quora and Reddit.",
+        "id": 805
+    },
+    {
+        "instruction": "Develop a product roadmap for a tech start-up.",
+        "id": 806
+    },
+    {
+        "instruction": "Outline the challenges of managing public cloud infrastructure.",
+        "id": 807
+    },
+    {
+        "instruction": "What methods can we use to assess the success of a content marketing campaign?",
+        "id": 808
+    },
+    {
+        "instruction": "Summarize the current situation in Syria",
+        "id": 809
+    },
+    {
+        "instruction": "Please help me develop a brand identity for my business.",
+        "id": 810
+    },
+    {
+        "instruction": "Explain the connection between natural language processing and automated customer support.",
+        "id": 811
+    },
+    {
+        "instruction": "What are three potential effects of social media on mental health?",
+        "id": 812
+    },
+    {
+        "instruction": "Name and describe five elements of a successful marketing strategy\n\n1. Audience segmentation: determining who the target demographic is and how to reach them.\n2. Product positioning: developing a unique angle and position of the product that appeals to the target demographic.\n3. Messaging: crafting a message that speaks directly to the target demographic and resonates with them.\n4. Channels: determining which channels to use to deliver the message to the target audience (e.g., social media, email, print, etc.). \n5. Analytics: tracking results of the marketing efforts and continually optimizing the message and channels used to reach the target audience.",
+        "id": 813
+    },
+    {
+        "instruction": "What are the best methods for detecting malicious code?",
+        "id": 814
+    },
+    {
+        "instruction": "Give me five tips for saving money on groceries.",
+        "id": 815
+    },
+    {
+        "instruction": "Summarize the implications of advancements in robotics",
+        "id": 816
+    },
+    {
+        "instruction": "Can you generate five different book titles related to love and friendship?",
+        "id": 817
+    },
+    {
+        "instruction": "What strategies can be used to mitigate cyber security threats?",
+        "id": 818
+    },
+    {
+        "instruction": "How can we reduce our reliance on fossil fuels?",
+        "id": 819
+    },
+    {
+        "instruction": "What factors contributed to the San Francisco tech bubble of 2000?",
+        "id": 820
+    },
+    {
+        "instruction": "Summarize a research paper on AI-facilitated bots.",
+        "id": 821
+    },
+    {
+        "instruction": "What are the top 5 most common mental health disorders and how can they be treated?",
+        "id": 822
+    },
+    {
+        "instruction": "Develop a budget for an artificial intelligence research team",
+        "id": 823
+    },
+    {
+        "instruction": "Generate a list of 10 popular novels from the 21st century so far.",
+        "id": 824
+    },
+    {
+        "instruction": "I need to learn coding. What resources should I use to get started?",
+        "id": 825
+    },
+    {
+        "instruction": "Using these three random words (robot, beach, pizza), write a sci-fi short story.",
+        "id": 826
+    },
+    {
+        "instruction": "What are your thoughts on the current state of healthcare in your country? What changes would you suggest to improve the system?",
+        "id": 827
+    },
+    {
+        "instruction": "List five advantages of using a distributed computing system",
+        "id": 828
+    },
+    {
+        "instruction": "Describe a personal challenge or obstacle that you overcame through perseverance and determination",
+        "id": 829
+    },
+    {
+        "instruction": "Create an algorithm to accurately predict stock market movements.",
+        "id": 830
+    },
+    {
+        "instruction": "How can we improve access to healthcare in rural areas?",
+        "id": 831
+    },
+    {
+        "instruction": "What are the most effective techniques for search engine optimization?",
+        "id": 832
+    },
+    {
+        "instruction": "Research the most effective methods of providing customer service using social media",
+        "id": 833
+    },
+    {
+        "instruction": "Analyze the impact of pollution on human health and the environment.",
+        "id": 834
+    },
+    {
+        "instruction": "Choose five stocks to invest in",
+        "id": 835
+    },
+    {
+        "instruction": "Write a paragraph about the potential effects of climate change on ocean ecosystems.",
+        "id": 836
+    },
+    {
+        "instruction": "Create a list of ethical considerations to take when using AI and ML",
+        "id": 837
+    },
+    {
+        "instruction": "Design an interface that makes navigating complex applications easier.",
+        "id": 838
+    },
+    {
+        "instruction": "Generate a list of the best practices for customer service",
+        "id": 839
+    },
+    {
+        "instruction": "Suggest ways to optimize customer experience on mobile devices.",
+        "id": 840
+    },
+    {
+        "instruction": "What common tools are used to measure electrical current?",
+        "id": 841
+    },
+    {
+        "instruction": "Please write five bullet points summarizing the main arguments of a persuasive essay on the importance of voting.",
+        "id": 842
+    },
+    {
+        "instruction": "Summarize the contents of a novel",
+        "id": 843
+    },
+    {
+        "instruction": "List some challenges associated with developing an autonomous car",
+        "id": 844
+    },
+    {
+        "instruction": "Construct a comprehensive model of the global economy",
+        "id": 845
+    },
+    {
+        "instruction": "Write a list of steps to create an encouraging learning environment",
+        "id": 846
+    },
+    {
+        "instruction": "Develop a marketing campaign for a new clothing brand.",
+        "id": 847
+    },
+    {
+        "instruction": "Research how the use of biometrics has changed over time",
+        "id": 848
+    },
+    {
+        "instruction": "What are the essential components of a sustainable business plan?",
+        "id": 849
+    },
+    {
+        "instruction": "Investigate the impact of indoor location tracking",
+        "id": 850
+    },
+    {
+        "instruction": "Develop a strategy to implement machine learning-based fraud detection system.",
+        "id": 851
+    },
+    {
+        "instruction": "Can you provide a brief overview of the legal system in the United States?",
+        "id": 852
+    },
+    {
+        "instruction": "Provide an aerial view of the best way to lay out a garden",
+        "id": 853
+    },
+    {
+        "instruction": "Analyze the potential of green building technologies",
+        "id": 854
+    },
+    {
+        "instruction": "Construct an algorithm to identify anomalies in customer data",
+        "id": 855
+    },
+    {
+        "instruction": "Design a supervised classification model using Decision Trees",
+        "id": 856
+    },
+    {
+        "instruction": "Calculate the force of one object pulling on another object with masses 8 kg and 10 kg that are 8 m apart",
+        "id": 857
+    },
+    {
+        "instruction": "Explain the principles of public relations",
+        "id": 858
+    },
+    {
+        "instruction": "What is the difference between a macro and a function in Excel? Provide examples for each.",
+        "id": 859
+    },
+    {
+        "instruction": "Come up with an original idea for a mobile app that would be useful to a specific demographic.",
+        "id": 860
+    },
+    {
+        "instruction": "Develop a mobile application to help people recycle",
+        "id": 861
+    },
+    {
+        "instruction": "Summarize the activity of cryptocurrencies on the stock market",
+        "id": 862
+    },
+    {
+        "instruction": "Create a data dashboard of customer buying patterns",
+        "id": 863
+    },
+    {
+        "instruction": "Create a PowerPoint presentation to introduce a new product",
+        "id": 864
+    },
+    {
+        "instruction": "Write a letter of recommendation for a coworker who is applying for a new job.",
+        "id": 865
+    },
+    {
+        "instruction": "Select a poem and explain its meaning.",
+        "id": 866
+    },
+    {
+        "instruction": "What is the best way to begin writing a blog post?",
+        "id": 867
+    },
+    {
+        "instruction": "What countries have the highest-quality higher education in the world?",
+        "id": 868
+    },
+    {
+        "instruction": "Find out the top 5 mutual fund investments of 2020.",
+        "id": 869
+    },
+    {
+        "instruction": "Describe how digital signatures work",
+        "id": 870
+    },
+    {
+        "instruction": "Write a product review for a hiking backpack that you recently purchased, outlining its features and performance.",
+        "id": 871
+    },
+    {
+        "instruction": "Develop an algorithm to predict whether or not a patient has a particular disease",
+        "id": 872
+    },
+    {
+        "instruction": "Create a dashboard to monitor customer service performance",
+        "id": 873
+    },
+    {
+        "instruction": "Describe in 200 words the benefits of building a software bot",
+        "id": 874
+    },
+    {
+        "instruction": "Please classify the following countries into different continents: Mexico, Japan, Egypt, and Australia.",
+        "id": 875
+    },
+    {
+        "instruction": "Construct a search engine to index medical data",
+        "id": 876
+    },
+    {
+        "instruction": "What challenges has the commercial use of AI created?",
+        "id": 877
+    },
+    {
+        "instruction": "Describe best practices for using virtual reality",
+        "id": 878
+    },
+    {
+        "instruction": "Construct an AI-assisted interview system",
+        "id": 879
+    },
+    {
+        "instruction": "Explain the 4 rules of data governance",
+        "id": 880
+    },
+    {
+        "instruction": "Evaluate the ethical implications of animal testing.",
+        "id": 881
+    },
+    {
+        "instruction": "Construct an algorithm to detect anomalous behaviors in computer networks.",
+        "id": 882
+    },
+    {
+        "instruction": "Create a GUI application to calculate the monthly mortgage payments.",
+        "id": 883
+    },
+    {
+        "instruction": "How do online social networks influence our understanding of the world?",
+        "id": 884
+    },
+    {
+        "instruction": "Create a haiku about the beauty of nature, using traditional haiku form (5 syllables, 7 syllables, 5 syllables)",
+        "id": 885
+    },
+    {
+        "instruction": "Write an algorithm to classify a given text",
+        "id": 886
+    },
+    {
+        "instruction": "Create a list of 10 books to read for a ninth grade English class.",
+        "id": 887
+    },
+    {
+        "instruction": "Can you create a playlist of the top 50 songs of the 90s?",
+        "id": 888
+    },
+    {
+        "instruction": "Who was the inventor of the World Wide Web and when?",
+        "id": 889
+    },
+    {
+        "instruction": "Create a website mockup for a blog about travel",
+        "id": 890
+    },
+    {
+        "instruction": "Explain how to integrate an enterprise resource planning system into an existing workflow",
+        "id": 891
+    },
+    {
+        "instruction": "Create a collage to illustrate the theme of love",
+        "id": 892
+    },
+    {
+        "instruction": "Describe the use of digital transformation in the healthcare industry",
+        "id": 893
+    },
+    {
+        "instruction": "Write a screenplay for a short film about a person who wakes up one morning with the ability to travel through time.",
+        "id": 894
+    },
+    {
+        "instruction": "Calculate the interest rate for a mortgage loan",
+        "id": 895
+    },
+    {
+        "instruction": "Discuss the potential drawbacks and benefits of virtual reality technology.",
+        "id": 896
+    },
+    {
+        "instruction": "Create a step-by-step guide to prepping a business plan",
+        "id": 897
+    },
+    {
+        "instruction": "Explain the ways in which water scarcity can be managed",
+        "id": 898
+    },
+    {
+        "instruction": "How has artificial intelligence impacted security?",
+        "id": 899
+    },
+    {
+        "instruction": "List the tools needed to perform basic car maintenance.",
+        "id": 900
+    },
+    {
+        "instruction": "Research and produce a whitepaper on digital currency arbitrage",
+        "id": 901
+    },
+    {
+        "instruction": "Analyze the projected growth of e-commerce in 2021.",
+        "id": 902
+    },
+    {
+        "instruction": "Can you explain the purpose of heuristics in decision-making?",
+        "id": 903
+    },
+    {
+        "instruction": "What is the purpose of a firewall and why is it important for network security?",
+        "id": 904
+    },
+    {
+        "instruction": "Describe the ways in which machine learning algorithms can improve a customer service chatbot",
+        "id": 905
+    },
+    {
+        "instruction": "How does SQL injection work?",
+        "id": 906
+    },
+    {
+        "instruction": "Design an interface that allows users to compare two different versions of a product",
+        "id": 907
+    },
+    {
+        "instruction": "Create a user interface for a to-do list application",
+        "id": 908
+    },
+    {
+        "instruction": "Show me how to use machine learning for customer segmentation",
+        "id": 909
+    },
+    {
+        "instruction": "Design an algorithm to identify potential customer segments",
+        "id": 910
+    },
+    {
+        "instruction": "Develop a set of software development metrics for benchmarking performance",
+        "id": 911
+    },
+    {
+        "instruction": "Design a logo for a political campaign, using appropriate colors and symbols.",
+        "id": 912
+    },
+    {
+        "instruction": "Write a review of a game based on a given set of criteria",
+        "id": 913
+    },
+    {
+        "instruction": "Incorporate speech recognition technology into a voice-activated TV remote",
+        "id": 914
+    },
+    {
+        "instruction": "Research the current trends in automation",
+        "id": 915
+    },
+    {
+        "instruction": "How does machine learning help in predictive analysis and forecasting?",
+        "id": 916
+    },
+    {
+        "instruction": "Create a list of activities that help boost employee morale.",
+        "id": 917
+    },
+    {
+        "instruction": "Explain how a bill becomes a law",
+        "id": 918
+    },
+    {
+        "instruction": "comment on the relative merits of compiling versus interpreting code",
+        "id": 919
+    },
+    {
+        "instruction": "Name four different types of databases and explain their use cases.",
+        "id": 920
+    },
+    {
+        "instruction": "Design a system for tracking and improving customer experience",
+        "id": 921
+    },
+    {
+        "instruction": "Compare and contrast the benefits of traditional web applications versus progressive web applications",
+        "id": 922
+    },
+    {
+        "instruction": "What are the steps of conducting a successful job interview?",
+        "id": 923
+    },
+    {
+        "instruction": "Analyze the idea of using blockchain technology as a way to manage data privacy",
+        "id": 924
+    },
+    {
+        "instruction": "Analyze the opportunities to apply blockchain technology in the healthcare industry",
+        "id": 925
+    },
+    {
+        "instruction": "Write a creative essay exploring the concept of artificial intelligence.",
+        "id": 926
+    },
+    {
+        "instruction": "Explain the concept of the “pivot” in start-up businesses",
+        "id": 927
+    },
+    {
+        "instruction": "Write a biography of a historical figure who has been overlooked or underrated by traditional narratives of history",
+        "id": 928
+    },
+    {
+        "instruction": "Construct a statistical model to analyze a dataset",
+        "id": 929
+    },
+    {
+        "instruction": "Research the potential of using AIs to diagnose and treat illnesses.",
+        "id": 930
+    },
+    {
+        "instruction": "Analyze a big data set to create a predictive model",
+        "id": 931
+    },
+    {
+        "instruction": "What is the most popular form of social media among teenagers in 2021?",
+        "id": 932
+    },
+    {
+        "instruction": "Compare and contrast ecological, economic, and socio-cultural sustainability",
+        "id": 933
+    },
+    {
+        "instruction": "Calculate the weighted average for a student's grades",
+        "id": 934
+    },
+    {
+        "instruction": "Summarize the key attributes of a successful business plan",
+        "id": 935
+    },
+    {
+        "instruction": "How can the current challenges with autonomous driving systems be addressed?",
+        "id": 936
+    },
+    {
+        "instruction": "Please correct any spelling or grammatical errors in the following sentence: \"He should of went to the party.\"",
+        "id": 937
+    },
+    {
+        "instruction": "How to develop an online survey form?",
+        "id": 938
+    },
+    {
+        "instruction": "Can you suggest a book that will help me improve my public speaking skills?",
+        "id": 939
+    },
+    {
+        "instruction": "Explain the concept of net metering in the context of renewable energy, and its benefits for consumers.",
+        "id": 940
+    },
+    {
+        "instruction": "Compose a song using a melody and lyrics that convey a message about climate change",
+        "id": 941
+    },
+    {
+        "instruction": "Generate a list of ways to increase sustainable practices at my home",
+        "id": 942
+    },
+    {
+        "instruction": "Designing a user interface for a new home automation system",
+        "id": 943
+    },
+    {
+        "instruction": "Explain the potential of machine learning for the medical field",
+        "id": 944
+    },
+    {
+        "instruction": "Create a Python module for web scraping",
+        "id": 945
+    },
+    {
+        "instruction": "Come up with a strategy for increasing employee motivation and engagement.",
+        "id": 946
+    },
+    {
+        "instruction": "What techniques can be used to analyze big data?",
+        "id": 947
+    },
+    {
+        "instruction": "Assess the security considerations for cloud computing",
+        "id": 948
+    },
+    {
+        "instruction": "Explain the features and uses of machine vision",
+        "id": 949
+    },
+    {
+        "instruction": "Identify and discuss five emerging trends in technologies for robotics.",
+        "id": 950
+    },
+    {
+        "instruction": "Draft up a memo for a marketing executive on why their company should use AI",
+        "id": 951
+    },
+    {
+        "instruction": "Create an algorithm to help match medical donors",
+        "id": 952
+    },
+    {
+        "instruction": "Analyze a website structure and create a roadmap for improvement",
+        "id": 953
+    },
+    {
+        "instruction": "Configure an automated system to send reminders to team members",
+        "id": 954
+    },
+    {
+        "instruction": "How would you classify the different types of clouds based on their altitude, shape and composition? Please provide at least three examples for each type.",
+        "id": 955
+    },
+    {
+        "instruction": "Write a letter to an elder in your life thanking them for their wisdom and guidance.",
+        "id": 956
+    },
+    {
+        "instruction": "I have a lot of incoming data. What methods can I use to organize them into a more meaningful architecture?",
+        "id": 957
+    },
+    {
+        "instruction": "Edit this paragraph to improve its clarity and conciseness: \"The reason we need to meet as a team is because we have some important information to discuss, and it's important that everyone is on the same page. I think we should aim to meet next week, but we can work out the details later.\"",
+        "id": 958
+    },
+    {
+        "instruction": "Compile a comprehensive list of the most significant international summits of the past decade.",
+        "id": 959
+    },
+    {
+        "instruction": "Research the link between deforestation and animal extinction.",
+        "id": 960
+    },
+    {
+        "instruction": "Convert the timezone from CST to IST.",
+        "id": 961
+    },
+    {
+        "instruction": "Develop software to find the most efficient route for businesses",
+        "id": 962
+    },
+    {
+        "instruction": "Discuss the threats posed by cybercrime",
+        "id": 963
+    },
+    {
+        "instruction": "What challenges do businesses face when creating data-driven marketing strategies",
+        "id": 964
+    },
+    {
+        "instruction": "What rights do people in the United States have?",
+        "id": 965
+    },
+    {
+        "instruction": "Compare and contrast the difference between a graphic designer and a web designer",
+        "id": 966
+    },
+    {
+        "instruction": "Design an order fulfillment process for an online store.",
+        "id": 967
+    },
+    {
+        "instruction": "Research the benefits of the Kanban Board system",
+        "id": 968
+    },
+    {
+        "instruction": "List 5 benefits of traveling",
+        "id": 969
+    },
+    {
+        "instruction": "Write an algorithm to analyze sentiment in text data",
+        "id": 970
+    },
+    {
+        "instruction": "Generate content for an informational blog about the different software development trends",
+        "id": 971
+    },
+    {
+        "instruction": "How can AI be applied to predictive analytics?",
+        "id": 972
+    },
+    {
+        "instruction": "Develop a computer vision system for identifying objects",
+        "id": 973
+    },
+    {
+        "instruction": "Make up a fictional story about the events of a circus visit gone wrong",
+        "id": 974
+    },
+    {
+        "instruction": "Compose an email to a potential customer explaining the benefits of using a product.",
+        "id": 975
+    },
+    {
+        "instruction": "What types of cancer treatments exist today?",
+        "id": 976
+    },
+    {
+        "instruction": "How can I design a customer feedback system to collect useful customer sentiment?",
+        "id": 977
+    },
+    {
+        "instruction": "What is Natural Language Processing (NLP)?",
+        "id": 978
+    },
+    {
+        "instruction": "Analyze the major issues associated with the use of social media.",
+        "id": 979
+    },
+    {
+        "instruction": "Edit this sentence: \"Im going with them to the movies tonight, theres two of them and one of me.\"",
+        "id": 980
+    },
+    {
+        "instruction": "Create a social media campaign to raise awareness about mental health.",
+        "id": 981
+    },
+    {
+        "instruction": "Describe the ethical implications of using biometric technology.",
+        "id": 982
+    },
+    {
+        "instruction": "As someone with no musical experience, can you provide me with basic piano lessons to get started? Must include guidance for hand placement, scales, and chords.",
+        "id": 983
+    },
+    {
+        "instruction": "Analyze economic trends in the renewable energy industry",
+        "id": 984
+    },
+    {
+        "instruction": "Edit this resume and suggest improvements for better presentation.",
+        "id": 985
+    },
+    {
+        "instruction": "Identify the human rights abuses in China",
+        "id": 986
+    },
+    {
+        "instruction": "Generate a list of 15 potential use cases for ChatGPT in automotive industry",
+        "id": 987
+    },
+    {
+        "instruction": "Evaluate the security requirements for a e-commerce platform",
+        "id": 988
+    },
+    {
+        "instruction": "Analyze the role of virtual personal assistants in customer service",
+        "id": 989
+    },
+    {
+        "instruction": "What is the meaning behind the painting \"The Starry Night\" by Vincent Van Gogh?",
+        "id": 990
+    },
+    {
+        "instruction": "Can you come up with a recipe for a homemade face mask using natural ingredients?",
+        "id": 991
+    },
+    {
+        "instruction": "What are some simple and effective ways to reduce stress and promote mental well-being?",
+        "id": 992
+    },
+    {
+        "instruction": "What is the effect of global warming on polar bears?",
+        "id": 993
+    },
+    {
+        "instruction": "Profile the impact of travel restrictions during the COVID pandemic",
+        "id": 994
+    },
+    {
+        "instruction": "Explain the key features of an effective keyword research strategy",
+        "id": 995
+    },
+    {
+        "instruction": "How can teachers be better utilized in a remote learning setting?",
+        "id": 996
+    },
+    {
+        "instruction": "Propose different methods of addressing online piracy",
+        "id": 997
+    },
+    {
+        "instruction": "Design a network of connected devices to manage energy consumption in a home.",
+        "id": 998
+    },
+    {
+        "instruction": "Create a home exercise plan with five different workout ideas.",
+        "id": 999
+    }
+]

@@ -12,6 +12,9 @@ from .callbacks import Callback
 from .strategies import Strategy
 from .utils import is_rank_0
 
+import time
+
+experience = None
 
 class Trainer(ABC):
     """
@@ -57,11 +60,11 @@ class Trainer(ABC):
     def training_step(self, experience: Experience) -> Dict[str, Any]:
         pass
 
-    def _make_experience(self, inputs: Union[Tensor, Dict[str, Tensor]]) -> Experience:
+    def _make_experience(self, timestep, inputs: Union[Tensor, Dict[str, Tensor]]) -> Experience:
         if isinstance(inputs, Tensor):
-            return self.experience_maker.make_experience(inputs, **self.generate_kwargs)
+            return self.experience_maker.make_experience(timestep, inputs, **self.generate_kwargs)
         elif isinstance(inputs, dict):
-            return self.experience_maker.make_experience(**inputs, **self.generate_kwargs)
+            return self.experience_maker.make_experience(timestep, **inputs, **self.generate_kwargs)
         else:
             raise ValueError(f'Unsupported input type "{type(inputs)}"')
 
@@ -70,7 +73,7 @@ class Trainer(ABC):
         sampled_indices = self.strategy.experience_sampler.choice(indices, self.experience_batch_size, replace=False)
         return [prompts[i] for i in sampled_indices]
 
-    def _learn(self):
+    def _learn(self, timestep):
         # replay buffer may be empty at first, we should rebuild at each training
         if not self.sample_replay_buffer:
             dataloader = self.strategy.setup_dataloader(self.replay_buffer, self.dataloader_pin_memory)
@@ -79,7 +82,7 @@ class Trainer(ABC):
             pbar = tqdm(range(self.max_epochs), desc='Train epoch', disable=not is_rank_0())
             for _ in pbar:
                 experience = self.replay_buffer.sample()
-                metrics = self.training_step(experience)
+                metrics = self.training_step(experience, timestep)
                 pbar.set_postfix(metrics)
         else:
             for epoch in range(self.max_epochs):
@@ -90,7 +93,7 @@ class Trainer(ABC):
                 for experience in pbar:
                     self._on_learn_batch_start()
                     experience.to_device(device)
-                    metrics = self.training_step(experience)
+                    metrics = self.training_step(experience, timestep)
                     self._on_learn_batch_end(metrics, experience)
                     pbar.set_postfix(metrics)
                 self._on_learn_epoch_end(epoch)
@@ -101,7 +104,8 @@ class Trainer(ABC):
             num_episodes: int = 50000,
             max_timesteps: int = 500,
             update_timesteps: int = 5000) -> None:
-        time = 0
+        global experience
+        timestep = 0
         self.pretrain_dataloader = pretrain_dataloader
         self.prompt_dataloader = prompt_dataloader
         self._on_fit_start()
@@ -110,19 +114,25 @@ class Trainer(ABC):
             for timestep in tqdm(range(max_timesteps),
                                  desc=f'Episode [{episode+1}/{num_episodes}]',
                                  disable=not is_rank_0()):
-                time += 1
+                start_time = time.time()
+                timestep += 1
                 prompts = next(iter(self.prompt_dataloader))
                 self._on_make_experience_start()
                 self.experience_maker.initial_model.to(torch.cuda.current_device())
                 self.experience_maker.reward_model.to(torch.cuda.current_device())
-                experience = self._make_experience(prompts)
+                # if timestep == 1:
+                if True:
+                    experience = self._make_experience(timestep, prompts)
                 self._on_make_experience_end(experience)
                 self.replay_buffer.append(experience)
-                if time % update_timesteps == 0:
+                if timestep % update_timesteps == 0:
                     self.experience_maker.initial_model.to('cpu')
                     self.experience_maker.reward_model.to('cpu')
-                    self._learn()
+                    self._learn(timestep)
                     self.replay_buffer.clear()
+                end_time = time.time()
+                end_to_end_time = end_time - start_time
+                print(f"e2e time(second): {end_to_end_time}", flush=True)
             self._on_episode_end(episode)
         self._on_fit_end()
 

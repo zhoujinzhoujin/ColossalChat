@@ -13,7 +13,7 @@ try:
     )
 except ImportError:
     from transformers.generation import LogitsProcessorList, TemperatureLogitsWarper, TopKLogitsWarper, TopPLogitsWarper
-
+    
 
 def prepare_logits_processor(top_k: Optional[int] = None,
                              top_p: Optional[float] = None,
@@ -48,16 +48,18 @@ def sample(model: nn.Module,
            prepare_inputs_fn: Optional[Callable[[torch.Tensor, Any], dict]] = None,
            update_model_kwargs_fn: Optional[Callable[[dict, Any], dict]] = None,
            **model_kwargs) -> torch.Tensor:
+    
     if input_ids.size(1) >= max_length:
         return input_ids
 
     logits_processor = prepare_logits_processor(top_k, top_p, temperature)
     unfinished_sequences = input_ids.new(input_ids.shape[0]).fill_(1)
 
-    for _ in range(input_ids.size(1), max_length):
+    for sample_step in range(input_ids.size(1), max_length):
         model_inputs = prepare_inputs_fn(input_ids, **model_kwargs) if prepare_inputs_fn is not None else {
             'input_ids': input_ids
         }
+        
         outputs = model(**model_inputs)
 
         next_token_logits = outputs['logits'][:, -1, :]
@@ -65,6 +67,10 @@ def sample(model: nn.Module,
         next_token_logits = logits_processor(input_ids, next_token_logits)
         # sample
         probs = torch.softmax(next_token_logits, dim=-1, dtype=torch.float)
+        
+        if torch.isnan(probs).any() or torch.sum(probs) <= 0:
+            probs = torch.full_like(probs, fill_value=1.0 / probs.size(-1))
+            
         next_tokens = torch.multinomial(probs, num_samples=1).squeeze(1)
 
         # finished sentences should have their next token be a padding token
@@ -81,7 +87,7 @@ def sample(model: nn.Module,
         # if eos_token was found in one sentence, set sentence to finished
         if eos_token_id is not None:
             unfinished_sequences = unfinished_sequences.mul((next_tokens != eos_token_id).long())
-
+        
         # stop when each sentence is finished if early_stopping=True
         if early_stopping and _is_sequence_finished(unfinished_sequences):
             break
@@ -120,6 +126,22 @@ def generate(model: nn.Module,
         prepare_inputs_fn (Optional[Callable[[torch.Tensor, Any], dict]], optional): Function to preprocess model inputs. Arguments of this function should be input_ids and model_kwargs. Defaults to None.
         update_model_kwargs_fn (Optional[Callable[[dict, Any], dict]], optional): Function to update model_kwargs based on outputs. Arguments of this function should be outputs and model_kwargs. Defaults to None.
     """
+    
+    # return model.generate(inputs=input_ids, max_length=max_length, 
+    #                                 early_stopping=early_stopping, 
+    #                                 eos_token_id=eos_token_id, 
+    #                                 pad_token_id=pad_token_id,
+    #                             top_k=top_k,
+    #                             top_p=top_p,
+    #                             temperature=temperature)
+    # return model.module.generate(inputs=input_ids, max_length=max_length, 
+    #                             early_stopping=early_stopping, 
+    #                             eos_token_id=eos_token_id, 
+    #                             pad_token_id=pad_token_id,
+    #                         top_k=top_k,
+    #                         top_p=top_p,
+    #                         temperature=temperature)
+    
     is_greedy_gen_mode = ((num_beams == 1) and do_sample is False)
     is_sample_gen_mode = ((num_beams == 1) and do_sample is True)
     is_beam_gen_mode = ((num_beams > 1) and do_sample is False)
@@ -127,7 +149,6 @@ def generate(model: nn.Module,
         # run greedy search
         raise NotImplementedError
     elif is_sample_gen_mode:
-        # run sample
         return sample(model,
                       input_ids,
                       max_length,
@@ -137,8 +158,10 @@ def generate(model: nn.Module,
                       top_k=top_k,
                       top_p=top_p,
                       temperature=temperature,
-                      prepare_inputs_fn=prepare_inputs_fn,
-                      update_model_kwargs_fn=update_model_kwargs_fn,
+                    #   prepare_inputs_fn=prepare_inputs_fn,
+                    #   update_model_kwargs_fn=update_model_kwargs_fn,
+                      prepare_inputs_fn=None,
+                      update_model_kwargs_fn=None,
                       **model_kwargs)
     elif is_beam_gen_mode:
         raise NotImplementedError

@@ -1,8 +1,6 @@
-set_n_least_used_CUDA_VISIBLE_DEVICES 1
-
-python train_reward_model.py --pretrain 'microsoft/deberta-v3-large' \
-                             --model 'deberta' \
+python train_reward_model.py --pretrain 'openai-community/gpt2-medium' \
+                             --model 'gpt2' \
                              --strategy naive \
                              --loss_fn 'log_exp'\
-                             --save_path 'rmstatic.pt' \
+                             --save_path output_rm \
                              --test True

@@ -81,7 +81,10 @@ class Strategy(ABC):
                 assert len(arg) == 2, f'Expect (model, optimizer) pair, got a tuple with size "{len(arg)}"'
                 model, optimizer = arg
                 model = prepare_model(model)
-                optimizer = self.setup_optimizer(optimizer, self._unwrap_model(model))
+                if isinstance(model, Actor):
+                    optimizer = self.setup_optimizer(optimizer, self._unwrap_model(model))
+                else:
+                    optimizer = self.setup_optimizer(optimizer, model)
                 rets.append((model, optimizer))
             elif isinstance(arg, nn.Module):
                 rets.append(prepare_model(arg))

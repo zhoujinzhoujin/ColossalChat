@@ -14,6 +14,82 @@ from .base import Trainer
 from .callbacks import Callback
 from .strategies import Strategy
 
+import time
+
+from memfrag_tracker import memfrag_tracker_reset, memfrag_tracker_print, get_peak_fragmentation
+
+class MemTrack():
+    
+    max_memory_reserved = 0
+    max_memory_allocated = 0
+    max_memory_active = 0
+    fragmentation_rate = 0.0
+    memory_reserved = 0
+    memory_allocated = 0
+    memory_reserved_after_empty_cache = 0
+    empty_cache_time = 0.0
+    
+    max_memory_reserved_0 = 0
+    max_memory_allocated_0 = 0
+    max_nrm = 0
+
+    @staticmethod
+    def reset_peak_memory_stats():
+        torch.cuda.reset_peak_memory_stats()
+        empty_cache_time = 0
+        memfrag_tracker_reset()
+
+    @staticmethod
+    def _get_memory_stats():
+        MemTrack.max_memory_reserved = torch.cuda.max_memory_reserved()
+        MemTrack.max_memory_allocated = torch.cuda.max_memory_allocated()
+        MemTrack.max_memory_active = torch.cuda.memory_stats().get("active_bytes.all.peak", 0) 
+        if MemTrack.max_memory_reserved > 0:
+            MemTrack.fragmentation_rate = (MemTrack.max_memory_reserved - MemTrack.max_memory_allocated) / MemTrack.max_memory_reserved
+        else:
+            MemTrack.fragmentation_rate = 0
+        MemTrack.memory_reserved = torch.cuda.memory_reserved()
+        MemTrack.memory_allocated = torch.cuda.memory_allocated()   
+       
+    @staticmethod 
+    def _get_memory_stats_0():
+        MemTrack.max_memory_reserved_0 = max(MemTrack.max_memory_reserved_0, MemTrack.max_memory_reserved)
+        MemTrack.max_memory_allocated_0 = max(MemTrack.max_memory_allocated_0, MemTrack.max_memory_allocated)
+        MemTrack.max_nrm = max(MemTrack.max_nrm, MemTrack.max_memory_reserved - get_peak_fragmentation())
+    
+    @staticmethod
+    def _empty_cache(title: str):
+        # if title is "Critic Optimizer": # step
+        # if title is "Generation" or "Inference" in title: # inference
+        # if "Forward" in title or "Backward" in title or "Optimizer" in title: # training
+        if False:
+        # if True:
+            start_time = time.time()
+            torch.cuda.empty_cache()
+            end_time = time.time()
+            MemTrack.empty_cache_time = (end_time - start_time) * 1000.0
+        else:
+            MemTrack.empty_cache_time = 0.0
+    
+    @staticmethod
+    def _get_memory_info_after_empty_cache():
+        MemTrack.memory_reserved_after_empty_cache = torch.cuda.memory_reserved()
+        
+    @staticmethod
+    def collect_and_print_memory_stats(title: str):
+        MemTrack._get_memory_stats()
+        if title != "Generation":
+            MemTrack._get_memory_stats_0()
+        # print(f"new rm = {MemTrack.max_memory_reserved - get_peak_fragmentation()}", flush=True)
+        MemTrack._empty_cache(title)
+        MemTrack._get_memory_info_after_empty_cache()
+        # print(f"{title},{MemTrack.max_memory_reserved},{MemTrack.max_memory_allocated},{MemTrack.max_memory_active},{MemTrack.fragmentation_rate * 100:.2f}%,\
+        #     {MemTrack.memory_reserved},{MemTrack.memory_allocated},\
+        #         {MemTrack.memory_reserved_after_empty_cache},{MemTrack.empty_cache_time}", flush=True)
+        # memfrag_tracker_print()
+        if title != "Generation":
+            print(f"{title},{MemTrack.max_memory_reserved_0/1073741824:.1f},{MemTrack.max_memory_allocated_0/1073741824:.1f}, ,{MemTrack.max_nrm/1073741824:.1f}", flush=True)
+
 
 class PPOTrainer(Trainer):
     """
@@ -79,17 +155,27 @@ class PPOTrainer(Trainer):
         self.actor_optim = actor_optim
         self.critic_optim = critic_optim
 
-    def training_step(self, experience: Experience) -> Dict[str, float]:
+    def training_step(self, experience: Experience, timestep) -> Dict[str, float]:
         self.actor.train()
         self.critic.train()
         # policy loss
         num_actions = experience.action_mask.size(1)
+        MemTrack.reset_peak_memory_stats()
         action_log_probs = self.actor(experience.sequences, num_actions, attention_mask=experience.attention_mask)
-        actor_loss = self.actor_loss_fn(action_log_probs,
-                                        experience.action_log_probs,
-                                        experience.advantages,
-                                        action_mask=experience.action_mask)
-
+        
+        #PPO
+        # actor_loss = self.actor_loss_fn(action_log_probs,
+        #                                 experience.action_log_probs,
+        #                                 experience.advantages,
+        #                                 action_mask=experience.action_mask)
+        
+        # DPO
+        assert torch.all((experience.actions >= 0) & (experience.actions < num_actions)), "Actions out of bounds"
+        selected_action_values = action_log_probs.gather(1, experience.actions.unsqueeze(-1)).squeeze(-1)
+        actor_loss = -selected_action_values.mean()
+    
+        MemTrack.collect_and_print_memory_stats("Actor Forward")
+        
         # ptx loss
         if self.ptx_coef != 0:
             ptx = next(iter(self.pretrain_dataloader))['input_ids'].to(torch.cuda.current_device())
@@ -98,23 +184,38 @@ class PPOTrainer(Trainer):
             ptx_log_probs = self.actor.get_base_model()(ptx, attention_mask=attention_mask)['logits'][..., :-1, :]
             ptx_loss = self.ptx_loss_fn(ptx_log_probs.view(-1, ptx_log_probs.size(-1)), label.view(-1))
             actor_loss = ptx_loss * self.ptx_coef + actor_loss * (1 - self.ptx_coef)
-
+            
+        MemTrack.reset_peak_memory_stats()
         self.strategy.backward(actor_loss, self.actor, self.actor_optim)
+        MemTrack.collect_and_print_memory_stats("Actor Backward")
+        
+        MemTrack.reset_peak_memory_stats()
         self.strategy.optimizer_step(self.actor_optim)
         self.actor_optim.zero_grad()
-
+        MemTrack.collect_and_print_memory_stats("Actor Optimizer")
+        
         # value loss
-        values = self.critic(experience.sequences,
-                             action_mask=experience.action_mask,
-                             attention_mask=experience.attention_mask)
-        critic_loss = self.critic_loss_fn(values,
-                                          experience.values,
-                                          experience.reward,
-                                          action_mask=experience.action_mask)
-        self.strategy.backward(critic_loss, self.critic, self.critic_optim)
-        self.strategy.optimizer_step(self.critic_optim)
-        self.critic_optim.zero_grad()
-
+        if True:
+        # if timestep == 1:
+            MemTrack.reset_peak_memory_stats()
+            values = self.critic(experience.sequences,
+                                action_mask=experience.action_mask,
+                                attention_mask=experience.attention_mask)
+            critic_loss = self.critic_loss_fn(values,
+                                            experience.values,
+                                            experience.reward,
+                                            action_mask=experience.action_mask)
+            MemTrack.collect_and_print_memory_stats("Critic Forward")
+            
+            MemTrack.reset_peak_memory_stats()
+            self.strategy.backward(critic_loss, self.critic, self.critic_optim)
+            MemTrack.collect_and_print_memory_stats("Critic Backward")
+            
+            MemTrack.reset_peak_memory_stats()
+            self.strategy.optimizer_step(self.critic_optim)
+            self.critic_optim.zero_grad()
+            MemTrack.collect_and_print_memory_stats("Critic Optimizer")
+        
         return {'reward': experience.reward.mean().item()}
 
 

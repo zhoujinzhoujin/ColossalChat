@@ -63,6 +63,7 @@ def make_experience_batch(items: List[BufferItem]) -> Experience:
     kwargs = {}
     to_pad_keys = set(('action_log_probs', 'action_mask'))
     keys = ('sequences', 'action_log_probs', 'values', 'reward', 'advantages', 'attention_mask', 'action_mask')
+
     for key in keys:
         vals = [getattr(item, key) for item in items]
         if key in to_pad_keys:
@@ -70,4 +71,10 @@ def make_experience_batch(items: List[BufferItem]) -> Experience:
         else:
             batch_data = torch.stack(vals, dim=0)
         kwargs[key] = batch_data
+    
+    batch_size = len(items)
+    num_actions = kwargs['action_log_probs'].size(1)
+    actions = torch.randint(0, num_actions, (batch_size,)).to(kwargs['sequences'].device)
+    kwargs['actions'] = actions
+    
     return Experience(**kwargs)

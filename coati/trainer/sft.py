@@ -6,7 +6,7 @@ from typing import Optional
 import loralib as lora
 import torch
 import torch.distributed as dist
-import wandb
+# import wandb
 from coati.models.loss import GPTLMLoss
 from torch import nn
 from torch.optim import Adam, Optimizer
@@ -70,8 +70,8 @@ class SFTTrainer(ABC):
                                        num_training_steps=max_steps)
 
     def fit(self, logger, log_interval=10):
-        wandb.init(project="Coati", name=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-        wandb.watch(self.model)
+        # wandb.init(project="Coati", name=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+        # wandb.watch(self.model)
         total_loss = 0
         # epoch_bar = tqdm(range(self.epochs), desc='Epochs', disable=not is_rank_0())
         step_bar = tqdm(range(len(self.train_dataloader) // self.accimulation_steps * self.epochs),
@@ -110,12 +110,12 @@ class SFTTrainer(ABC):
                     self.strategy.optimizer_step(self.optimizer)
                     self.optimizer.zero_grad()
                     self.scheduler.step()
-                    wandb.log({
-                        "loss": total_loss / self.accimulation_steps,
-                        "lr": self.scheduler.get_last_lr()[0],
-                        "epoch": epoch,
-                        "batch_id": batch_id
-                    })
+                    # wandb.log({
+                    #     "loss": total_loss / self.accimulation_steps,
+                    #     "lr": self.scheduler.get_last_lr()[0],
+                    #     "epoch": epoch,
+                    #     "batch_id": batch_id
+                    # })
                     total_loss = 0
                     step_bar.update()
 

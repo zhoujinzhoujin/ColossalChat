@@ -54,14 +54,11 @@ class DDPStrategy(NaiveStrategy):
         # DDP only mode, replay buffers on each rank are different.
         # sampler = DistributedSampler(replay_buffer,
         #                              num_replicas=dist.get_world_size(),
-        #                              rank=dist.get_rank(),
-        #                              shuffle=True,
-        #                              seed=self.seed,
-        #                              drop_last=True)
+        #                              rank=dist.get_rank())
         return DataLoader(
             replay_buffer,
             batch_size=replay_buffer.sample_batch_size,
-        #   sampler=sampler,
+          sampler=None,
             shuffle=True,
             drop_last=True,
             pin_memory=pin_memory,
